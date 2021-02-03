@@ -1,0 +1,8867 @@
+BioTreeContainer ::= {
+  fdict {
+    {
+      id 0,
+      name "$EDGE_COLOR"
+    },
+    {
+      id 1,
+      name "label"
+    },
+    {
+      id 2,
+      name "dist"
+    },
+    {
+      id 3,
+      name "seq-id"
+    },
+    {
+      id 4,
+      name "branch-visible"
+    },
+    {
+      id 5,
+      name "is-collapsed"
+    },
+    {
+      id 6,
+      name "Host"
+    },
+    {
+      id 7,
+      name "Country"
+    },
+    {
+      id 8,
+      name "AccVer"
+    },
+    {
+      id 9,
+      name "CollectionDate"
+    }
+  },
+  nodes {
+    {
+      id 398,
+      features {
+        {
+          featureid 4,
+          value "0"
+        }
+      }
+    },
+    {
+      id 12,
+      parent 398,
+      features {
+        {
+          featureid 2,
+          value "0.111541"
+        },
+        {
+          featureid 3,
+          value "MW517286.1 |Homo sapiens|Italy||2021-01-22"
+        },
+        {
+          featureid 1,
+          value "MW517286.1 |Homo sapiens|Italy||2021-01-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW517286.1"
+        },
+        {
+          featureid 9,
+          value "2021-01-22"
+        }
+      }
+    },
+    {
+      id 397,
+      parent 398,
+      features {
+        {
+          featureid 2,
+          value "0.108897"
+        }
+      }
+    },
+    {
+      id 23,
+      parent 397,
+      features {
+        {
+          featureid 2,
+          value "0.002644"
+        },
+        {
+          featureid 3,
+          value "MW397520.1 |Homo sapiens|Russia||2020-10-10"
+        },
+        {
+          featureid 1,
+          value "MW397520.1 |Homo sapiens|Russia||2020-10-10"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW397520.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-10"
+        }
+      }
+    },
+    {
+      id 396,
+      parent 397,
+      features {
+        {
+          featureid 2,
+          value "0.000618"
+        }
+      }
+    },
+    {
+      id 220,
+      parent 396,
+      features {
+        {
+          featureid 2,
+          value "0.002026"
+        }
+      }
+    },
+    {
+      id 20,
+      parent 220,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW397516.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 1,
+          value "MW397516.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW397516.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-16"
+        }
+      }
+    },
+    {
+      id 22,
+      parent 220,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW397514.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 1,
+          value "MW397514.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW397514.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-12"
+        }
+      }
+    },
+    {
+      id 395,
+      parent 396,
+      features {
+        {
+          featureid 2,
+          value "0.001509"
+        }
+      }
+    },
+    {
+      id 388,
+      parent 395,
+      features {
+        {
+          featureid 2,
+          value "-0.004785"
+        }
+      }
+    },
+    {
+      id 195,
+      parent 388,
+      features {
+        {
+          featureid 2,
+          value "0.005303"
+        },
+        {
+          featureid 3,
+          value "MW485931.1 |Homo sapiens|Serbia||2020-07-08"
+        },
+        {
+          featureid 1,
+          value "MW485931.1 |Homo sapiens|Serbia||2020-07-08"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485931.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-08"
+        }
+      }
+    },
+    {
+      id 384,
+      parent 388,
+      features {
+        {
+          featureid 2,
+          value "-0.000019"
+        }
+      }
+    },
+    {
+      id 191,
+      parent 384,
+      features {
+        {
+          featureid 2,
+          value "0.005322"
+        },
+        {
+          featureid 3,
+          value "MW485803.1 |Homo sapiens|Serbia||2020-08-26"
+        },
+        {
+          featureid 1,
+          value "MW485803.1 |Homo sapiens|Serbia||2020-08-26"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485803.1"
+        },
+        {
+          featureid 9,
+          value "2020-08-26"
+        }
+      }
+    },
+    {
+      id 382,
+      parent 384,
+      features {
+        {
+          featureid 2,
+          value "0.005322"
+        }
+      }
+    },
+    {
+      id 189,
+      parent 382,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW485798.1 |Homo sapiens|Serbia||2020-07-23"
+        },
+        {
+          featureid 1,
+          value "MW485798.1 |Homo sapiens|Serbia||2020-07-23"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485798.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-23"
+        }
+      }
+    },
+    {
+      id 381,
+      parent 382,
+      features {
+        {
+          featureid 2,
+          value "-0.000000"
+        }
+      }
+    },
+    {
+      id 188,
+      parent 381,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW485796.1 |Homo sapiens|Serbia||2020-07-23"
+        },
+        {
+          featureid 1,
+          value "MW485796.1 |Homo sapiens|Serbia||2020-07-23"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485796.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-23"
+        }
+      }
+    },
+    {
+      id 380,
+      parent 381,
+      features {
+        {
+          featureid 2,
+          value "-0.000001"
+        }
+      }
+    },
+    {
+      id 187,
+      parent 380,
+      features {
+        {
+          featureid 2,
+          value "0.000001"
+        },
+        {
+          featureid 3,
+          value "MW485795.1 |Homo sapiens|Serbia||2020-08-04"
+        },
+        {
+          featureid 1,
+          value "MW485795.1 |Homo sapiens|Serbia||2020-08-04"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485795.1"
+        },
+        {
+          featureid 9,
+          value "2020-08-04"
+        }
+      }
+    },
+    {
+      id 374,
+      parent 380,
+      features {
+        {
+          featureid 2,
+          value "-0.000025"
+        }
+      }
+    },
+    {
+      id 181,
+      parent 374,
+      features {
+        {
+          featureid 2,
+          value "0.000026"
+        },
+        {
+          featureid 3,
+          value "MW485801.1 |Homo sapiens|Serbia||2020-05-19"
+        },
+        {
+          featureid 1,
+          value "MW485801.1 |Homo sapiens|Serbia||2020-05-19"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485801.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-19"
+        }
+      }
+    },
+    {
+      id 373,
+      parent 374,
+      features {
+        {
+          featureid 2,
+          value "-0.000502"
+        }
+      }
+    },
+    {
+      id 180,
+      parent 373,
+      features {
+        {
+          featureid 2,
+          value "0.000529"
+        },
+        {
+          featureid 3,
+          value "MW485800.1 |Homo sapiens|Serbia||2020-07-17"
+        },
+        {
+          featureid 1,
+          value "MW485800.1 |Homo sapiens|Serbia||2020-07-17"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485800.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-17"
+        }
+      }
+    },
+    {
+      id 372,
+      parent 373,
+      features {
+        {
+          featureid 2,
+          value "-0.004373"
+        }
+      }
+    },
+    {
+      id 179,
+      parent 372,
+      features {
+        {
+          featureid 2,
+          value "0.004901"
+        },
+        {
+          featureid 3,
+          value "MW485799.1 |Homo sapiens|Serbia||2020-07-23"
+        },
+        {
+          featureid 1,
+          value "MW485799.1 |Homo sapiens|Serbia||2020-07-23"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485799.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-23"
+        }
+      }
+    },
+    {
+      id 350,
+      parent 372,
+      features {
+        {
+          featureid 2,
+          value "-0.005044"
+        }
+      }
+    },
+    {
+      id 157,
+      parent 350,
+      features {
+        {
+          featureid 2,
+          value "0.009945"
+        },
+        {
+          featureid 3,
+          value "MW513511.1 |Felis catus|France||2020-09-24"
+        },
+        {
+          featureid 1,
+          value "MW513511.1 |Felis catus|France||2020-09-24"
+        },
+        {
+          featureid 6,
+          value "Felis catus"
+        },
+        {
+          featureid 7,
+          value "France"
+        },
+        {
+          featureid 8,
+          value "MW513511.1"
+        },
+        {
+          featureid 9,
+          value "2020-09-24"
+        }
+      }
+    },
+    {
+      id 336,
+      parent 350,
+      features {
+        {
+          featureid 2,
+          value "-0.000386"
+        }
+      }
+    },
+    {
+      id 143,
+      parent 336,
+      features {
+        {
+          featureid 2,
+          value "0.010331"
+        },
+        {
+          featureid 3,
+          value "MW340801.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340801.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340801.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 333,
+      parent 336,
+      features {
+        {
+          featureid 2,
+          value "0.006021"
+        }
+      }
+    },
+    {
+      id 140,
+      parent 333,
+      features {
+        {
+          featureid 2,
+          value "0.004311"
+        },
+        {
+          featureid 3,
+          value "MW340802.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340802.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340802.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 331,
+      parent 333,
+      features {
+        {
+          featureid 2,
+          value "0.002898"
+        }
+      }
+    },
+    {
+      id 138,
+      parent 331,
+      features {
+        {
+          featureid 2,
+          value "0.001413"
+        },
+        {
+          featureid 3,
+          value "MW340794.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340794.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340794.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 275,
+      parent 331,
+      features {
+        {
+          featureid 2,
+          value "0.001098"
+        }
+      }
+    },
+    {
+      id 82,
+      parent 275,
+      features {
+        {
+          featureid 2,
+          value "0.000314"
+        },
+        {
+          featureid 3,
+          value "MW315969.1 |Homo sapiens|Serbia||2020-06-15"
+        },
+        {
+          featureid 1,
+          value "MW315969.1 |Homo sapiens|Serbia||2020-06-15"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315969.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-15"
+        }
+      }
+    },
+    {
+      id 271,
+      parent 275,
+      features {
+        {
+          featureid 2,
+          value "-0.000198"
+        }
+      }
+    },
+    {
+      id 78,
+      parent 271,
+      features {
+        {
+          featureid 2,
+          value "0.000512"
+        },
+        {
+          featureid 3,
+          value "MW315966.1 |Homo sapiens|Serbia||2020-06-15"
+        },
+        {
+          featureid 1,
+          value "MW315966.1 |Homo sapiens|Serbia||2020-06-15"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315966.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-15"
+        }
+      }
+    },
+    {
+      id 244,
+      parent 271,
+      features {
+        {
+          featureid 2,
+          value "0.000346"
+        }
+      }
+    },
+    {
+      id 51,
+      parent 244,
+      features {
+        {
+          featureid 2,
+          value "0.000166"
+        },
+        {
+          featureid 3,
+          value "MW375726.1 |Homo sapiens|Spain||2020-03-13"
+        },
+        {
+          featureid 1,
+          value "MW375726.1 |Homo sapiens|Spain||2020-03-13"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Spain"
+        },
+        {
+          featureid 8,
+          value "MW375726.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-13"
+        }
+      }
+    },
+    {
+      id 205,
+      parent 244,
+      features {
+        {
+          featureid 2,
+          value "0.000166"
+        }
+      }
+    },
+    {
+      id 2,
+      parent 205,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW301356.1 |Homo sapiens|Russia||2020-08-27"
+        },
+        {
+          featureid 1,
+          value "MW301356.1 |Homo sapiens|Russia||2020-08-27"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW301356.1"
+        },
+        {
+          featureid 9,
+          value "2020-08-27"
+        }
+      }
+    },
+    {
+      id 29,
+      parent 205,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW368440.1 |Homo sapiens|Germany||2020-01-28"
+        },
+        {
+          featureid 1,
+          value "MW368440.1 |Homo sapiens|Germany||2020-01-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Germany"
+        },
+        {
+          featureid 8,
+          value "MW368440.1"
+        },
+        {
+          featureid 9,
+          value "2020-01-28"
+        }
+      }
+    },
+    {
+      id 394,
+      parent 395,
+      features {
+        {
+          featureid 2,
+          value "0.000184"
+        }
+      }
+    },
+    {
+      id 222,
+      parent 394,
+      features {
+        {
+          featureid 2,
+          value "0.000333"
+        }
+      }
+    },
+    {
+      id 221,
+      parent 222,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 4,
+          value "0"
+        }
+      }
+    },
+    {
+      id 21,
+      parent 221,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW397512.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 1,
+          value "MW397512.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW397512.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-12"
+        }
+      }
+    },
+    {
+      id 24,
+      parent 221,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW397515.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 1,
+          value "MW397515.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW397515.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-12"
+        }
+      }
+    },
+    {
+      id 31,
+      parent 222,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW273795.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 1,
+          value "MW273795.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273795.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-07"
+        }
+      }
+    },
+    {
+      id 393,
+      parent 394,
+      features {
+        {
+          featureid 2,
+          value "0.000133"
+        }
+      }
+    },
+    {
+      id 209,
+      parent 393,
+      features {
+        {
+          featureid 2,
+          value "0.000200"
+        }
+      }
+    },
+    {
+      id 208,
+      parent 209,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 4,
+          value "0"
+        }
+      }
+    },
+    {
+      id 207,
+      parent 208,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 4,
+          value "0"
+        }
+      }
+    },
+    {
+      id 206,
+      parent 207,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 4,
+          value "0"
+        }
+      }
+    },
+    {
+      id 3,
+      parent 206,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW301357.1 |Homo sapiens|Russia||2020-10-13"
+        },
+        {
+          featureid 1,
+          value "MW301357.1 |Homo sapiens|Russia||2020-10-13"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW301357.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-13"
+        }
+      }
+    },
+    {
+      id 14,
+      parent 206,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW301358.1 |Homo sapiens|Russia||2020-04-13"
+        },
+        {
+          featureid 1,
+          value "MW301358.1 |Homo sapiens|Russia||2020-04-13"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW301358.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-13"
+        }
+      }
+    },
+    {
+      id 15,
+      parent 207,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW301359.1 |Homo sapiens|Russia||2020-09-01"
+        },
+        {
+          featureid 1,
+          value "MW301359.1 |Homo sapiens|Russia||2020-09-01"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW301359.1"
+        },
+        {
+          featureid 9,
+          value "2020-09-01"
+        }
+      }
+    },
+    {
+      id 16,
+      parent 208,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW301360.1 |Homo sapiens|Russia||2020-04-13"
+        },
+        {
+          featureid 1,
+          value "MW301360.1 |Homo sapiens|Russia||2020-04-13"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW301360.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-13"
+        }
+      }
+    },
+    {
+      id 30,
+      parent 209,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW273794.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 1,
+          value "MW273794.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273794.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-07"
+        }
+      }
+    },
+    {
+      id 392,
+      parent 393,
+      features {
+        {
+          featureid 2,
+          value "-0.001565"
+        }
+      }
+    },
+    {
+      id 199,
+      parent 392,
+      features {
+        {
+          featureid 2,
+          value "0.001765"
+        },
+        {
+          featureid 3,
+          value "MW403703.1 |Homo sapiens|Italy||2020-04-04"
+        },
+        {
+          featureid 1,
+          value "MW403703.1 |Homo sapiens|Italy||2020-04-04"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403703.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-04"
+        }
+      }
+    },
+    {
+      id 391,
+      parent 392,
+      features {
+        {
+          featureid 2,
+          value "-0.000471"
+        }
+      }
+    },
+    {
+      id 198,
+      parent 391,
+      features {
+        {
+          featureid 2,
+          value "0.002237"
+        },
+        {
+          featureid 3,
+          value "MW403697.1 |Homo sapiens|Italy||2020-04-23"
+        },
+        {
+          featureid 1,
+          value "MW403697.1 |Homo sapiens|Italy||2020-04-23"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403697.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-23"
+        }
+      }
+    },
+    {
+      id 390,
+      parent 391,
+      features {
+        {
+          featureid 2,
+          value "-0.000921"
+        }
+      }
+    },
+    {
+      id 197,
+      parent 390,
+      features {
+        {
+          featureid 2,
+          value "0.003158"
+        },
+        {
+          featureid 3,
+          value "MW403693.1 |Homo sapiens|Italy||2020-04-28"
+        },
+        {
+          featureid 1,
+          value "MW403693.1 |Homo sapiens|Italy||2020-04-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403693.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-28"
+        }
+      }
+    },
+    {
+      id 389,
+      parent 390,
+      features {
+        {
+          featureid 2,
+          value "-0.002542"
+        }
+      }
+    },
+    {
+      id 196,
+      parent 389,
+      features {
+        {
+          featureid 2,
+          value "0.005700"
+        },
+        {
+          featureid 3,
+          value "MW505982.1 |Homo sapiens|France||2020-09-24"
+        },
+        {
+          featureid 1,
+          value "MW505982.1 |Homo sapiens|France||2020-09-24"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "France"
+        },
+        {
+          featureid 8,
+          value "MW505982.1"
+        },
+        {
+          featureid 9,
+          value "2020-09-24"
+        }
+      }
+    },
+    {
+      id 387,
+      parent 389,
+      features {
+        {
+          featureid 2,
+          value "0.003864"
+        }
+      }
+    },
+    {
+      id 194,
+      parent 387,
+      features {
+        {
+          featureid 2,
+          value "0.001836"
+        },
+        {
+          featureid 3,
+          value "MW485929.1 |Homo sapiens|Serbia||2020-04-20"
+        },
+        {
+          featureid 1,
+          value "MW485929.1 |Homo sapiens|Serbia||2020-04-20"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485929.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-20"
+        }
+      }
+    },
+    {
+      id 386,
+      parent 387,
+      features {
+        {
+          featureid 2,
+          value "0.001227"
+        }
+      }
+    },
+    {
+      id 193,
+      parent 386,
+      features {
+        {
+          featureid 2,
+          value "0.000609"
+        },
+        {
+          featureid 3,
+          value "MW485933.1 |Homo sapiens|Serbia||2020-04-03"
+        },
+        {
+          featureid 1,
+          value "MW485933.1 |Homo sapiens|Serbia||2020-04-03"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485933.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-03"
+        }
+      }
+    },
+    {
+      id 385,
+      parent 386,
+      features {
+        {
+          featureid 2,
+          value "-0.000081"
+        }
+      }
+    },
+    {
+      id 192,
+      parent 385,
+      features {
+        {
+          featureid 2,
+          value "0.000689"
+        },
+        {
+          featureid 3,
+          value "MW485805.1 |Homo sapiens|Serbia||2020-04-28"
+        },
+        {
+          featureid 1,
+          value "MW485805.1 |Homo sapiens|Serbia||2020-04-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485805.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-28"
+        }
+      }
+    },
+    {
+      id 383,
+      parent 385,
+      features {
+        {
+          featureid 2,
+          value "-0.000806"
+        }
+      }
+    },
+    {
+      id 190,
+      parent 383,
+      features {
+        {
+          featureid 2,
+          value "0.001496"
+        },
+        {
+          featureid 3,
+          value "MW485802.1 |Homo sapiens|Serbia||2020-05-10"
+        },
+        {
+          featureid 1,
+          value "MW485802.1 |Homo sapiens|Serbia||2020-05-10"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485802.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-10"
+        }
+      }
+    },
+    {
+      id 379,
+      parent 383,
+      features {
+        {
+          featureid 2,
+          value "0.000059"
+        }
+      }
+    },
+    {
+      id 186,
+      parent 379,
+      features {
+        {
+          featureid 2,
+          value "0.001437"
+        },
+        {
+          featureid 3,
+          value "MW485932.1 |Homo sapiens|Serbia||2020-04-01"
+        },
+        {
+          featureid 1,
+          value "MW485932.1 |Homo sapiens|Serbia||2020-04-01"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485932.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-01"
+        }
+      }
+    },
+    {
+      id 378,
+      parent 379,
+      features {
+        {
+          featureid 2,
+          value "-0.002174"
+        }
+      }
+    },
+    {
+      id 185,
+      parent 378,
+      features {
+        {
+          featureid 2,
+          value "0.003611"
+        },
+        {
+          featureid 3,
+          value "MW485930.1 |Homo sapiens|Serbia||2020-04-11"
+        },
+        {
+          featureid 1,
+          value "MW485930.1 |Homo sapiens|Serbia||2020-04-11"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485930.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-11"
+        }
+      }
+    },
+    {
+      id 377,
+      parent 378,
+      features {
+        {
+          featureid 2,
+          value "0.000055"
+        }
+      }
+    },
+    {
+      id 184,
+      parent 377,
+      features {
+        {
+          featureid 2,
+          value "0.003556"
+        },
+        {
+          featureid 3,
+          value "MW485928.1 |Homo sapiens|Serbia||2020-07-29"
+        },
+        {
+          featureid 1,
+          value "MW485928.1 |Homo sapiens|Serbia||2020-07-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485928.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-29"
+        }
+      }
+    },
+    {
+      id 376,
+      parent 377,
+      features {
+        {
+          featureid 2,
+          value "-0.000154"
+        }
+      }
+    },
+    {
+      id 183,
+      parent 376,
+      features {
+        {
+          featureid 2,
+          value "0.003710"
+        },
+        {
+          featureid 3,
+          value "MW485806.1 |Homo sapiens|Italy||2020-08-26"
+        },
+        {
+          featureid 1,
+          value "MW485806.1 |Homo sapiens|Italy||2020-08-26"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW485806.1"
+        },
+        {
+          featureid 9,
+          value "2020-08-26"
+        }
+      }
+    },
+    {
+      id 375,
+      parent 376,
+      features {
+        {
+          featureid 2,
+          value "0.002111"
+        }
+      }
+    },
+    {
+      id 182,
+      parent 375,
+      features {
+        {
+          featureid 2,
+          value "0.001598"
+        },
+        {
+          featureid 3,
+          value "MW485804.1 |Homo sapiens|Serbia||2020-05-10"
+        },
+        {
+          featureid 1,
+          value "MW485804.1 |Homo sapiens|Serbia||2020-05-10"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485804.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-10"
+        }
+      }
+    },
+    {
+      id 371,
+      parent 375,
+      features {
+        {
+          featureid 2,
+          value "-0.001448"
+        }
+      }
+    },
+    {
+      id 178,
+      parent 371,
+      features {
+        {
+          featureid 2,
+          value "0.003046"
+        },
+        {
+          featureid 3,
+          value "MW485797.1 |Homo sapiens|Serbia||2020-04-03"
+        },
+        {
+          featureid 1,
+          value "MW485797.1 |Homo sapiens|Serbia||2020-04-03"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485797.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-03"
+        }
+      }
+    },
+    {
+      id 370,
+      parent 371,
+      features {
+        {
+          featureid 2,
+          value "-0.000792"
+        }
+      }
+    },
+    {
+      id 177,
+      parent 370,
+      features {
+        {
+          featureid 2,
+          value "0.003838"
+        },
+        {
+          featureid 3,
+          value "MW480858.1 |Homo sapiens|Italy||2020-12-24"
+        },
+        {
+          featureid 1,
+          value "MW480858.1 |Homo sapiens|Italy||2020-12-24"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW480858.1"
+        },
+        {
+          featureid 9,
+          value "2020-12-24"
+        }
+      }
+    },
+    {
+      id 369,
+      parent 370,
+      features {
+        {
+          featureid 2,
+          value "-0.002645"
+        }
+      }
+    },
+    {
+      id 176,
+      parent 369,
+      features {
+        {
+          featureid 2,
+          value "0.006483"
+        },
+        {
+          featureid 3,
+          value "MW423685.2 |Homo sapiens|Italy||2020-12-10"
+        },
+        {
+          featureid 1,
+          value "MW423685.2 |Homo sapiens|Italy||2020-12-10"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW423685.2"
+        },
+        {
+          featureid 9,
+          value "2020-12-10"
+        }
+      }
+    },
+    {
+      id 368,
+      parent 369,
+      features {
+        {
+          featureid 2,
+          value "0.005138"
+        }
+      }
+    },
+    {
+      id 175,
+      parent 368,
+      features {
+        {
+          featureid 2,
+          value "0.001346"
+        },
+        {
+          featureid 3,
+          value "MW480894.1 |Homo sapiens|Italy||2020-12-29"
+        },
+        {
+          featureid 1,
+          value "MW480894.1 |Homo sapiens|Italy||2020-12-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW480894.1"
+        },
+        {
+          featureid 9,
+          value "2020-12-29"
+        }
+      }
+    },
+    {
+      id 367,
+      parent 368,
+      features {
+        {
+          featureid 2,
+          value "-0.003835"
+        }
+      }
+    },
+    {
+      id 174,
+      parent 367,
+      features {
+        {
+          featureid 2,
+          value "0.005180"
+        },
+        {
+          featureid 3,
+          value "MW423686.2 |Homo sapiens|Italy||2020-12-27"
+        },
+        {
+          featureid 1,
+          value "MW423686.2 |Homo sapiens|Italy||2020-12-27"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW423686.2"
+        },
+        {
+          featureid 9,
+          value "2020-12-27"
+        }
+      }
+    },
+    {
+      id 366,
+      parent 367,
+      features {
+        {
+          featureid 2,
+          value "0.004612"
+        }
+      }
+    },
+    {
+      id 173,
+      parent 366,
+      features {
+        {
+          featureid 2,
+          value "0.000569"
+        },
+        {
+          featureid 3,
+          value "MW403700.1 |Homo sapiens|Italy||2020-04-10"
+        },
+        {
+          featureid 1,
+          value "MW403700.1 |Homo sapiens|Italy||2020-04-10"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403700.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-10"
+        }
+      }
+    },
+    {
+      id 365,
+      parent 366,
+      features {
+        {
+          featureid 2,
+          value "0.000543"
+        }
+      }
+    },
+    {
+      id 172,
+      parent 365,
+      features {
+        {
+          featureid 2,
+          value "0.000025"
+        },
+        {
+          featureid 3,
+          value "MW403694.1 |Homo sapiens|Italy||2020-04-28"
+        },
+        {
+          featureid 1,
+          value "MW403694.1 |Homo sapiens|Italy||2020-04-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403694.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-28"
+        }
+      }
+    },
+    {
+      id 364,
+      parent 365,
+      features {
+        {
+          featureid 2,
+          value "-0.000258"
+        }
+      }
+    },
+    {
+      id 171,
+      parent 364,
+      features {
+        {
+          featureid 2,
+          value "0.000283"
+        },
+        {
+          featureid 3,
+          value "MW403702.1 |Homo sapiens|Italy||2020-04-15"
+        },
+        {
+          featureid 1,
+          value "MW403702.1 |Homo sapiens|Italy||2020-04-15"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403702.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-15"
+        }
+      }
+    },
+    {
+      id 363,
+      parent 364,
+      features {
+        {
+          featureid 2,
+          value "-0.000820"
+        }
+      }
+    },
+    {
+      id 170,
+      parent 363,
+      features {
+        {
+          featureid 2,
+          value "0.001103"
+        },
+        {
+          featureid 3,
+          value "MW403696.1 |Homo sapiens|Italy||2020-04-28"
+        },
+        {
+          featureid 1,
+          value "MW403696.1 |Homo sapiens|Italy||2020-04-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403696.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-28"
+        }
+      }
+    },
+    {
+      id 362,
+      parent 363,
+      features {
+        {
+          featureid 2,
+          value "-0.001480"
+        }
+      }
+    },
+    {
+      id 169,
+      parent 362,
+      features {
+        {
+          featureid 2,
+          value "0.002583"
+        },
+        {
+          featureid 3,
+          value "MW403701.1 |Homo sapiens|Italy||2020-04-08"
+        },
+        {
+          featureid 1,
+          value "MW403701.1 |Homo sapiens|Italy||2020-04-08"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403701.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-08"
+        }
+      }
+    },
+    {
+      id 361,
+      parent 362,
+      features {
+        {
+          featureid 2,
+          value "0.001114"
+        }
+      }
+    },
+    {
+      id 168,
+      parent 361,
+      features {
+        {
+          featureid 2,
+          value "0.001469"
+        },
+        {
+          featureid 3,
+          value "MW403699.1 |Homo sapiens|Italy||2020-04-23"
+        },
+        {
+          featureid 1,
+          value "MW403699.1 |Homo sapiens|Italy||2020-04-23"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403699.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-23"
+        }
+      }
+    },
+    {
+      id 360,
+      parent 361,
+      features {
+        {
+          featureid 2,
+          value "0.001094"
+        }
+      }
+    },
+    {
+      id 167,
+      parent 360,
+      features {
+        {
+          featureid 2,
+          value "0.000375"
+        },
+        {
+          featureid 3,
+          value "MW403698.1 |Homo sapiens|Italy||2020-04-09"
+        },
+        {
+          featureid 1,
+          value "MW403698.1 |Homo sapiens|Italy||2020-04-09"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403698.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-09"
+        }
+      }
+    },
+    {
+      id 359,
+      parent 360,
+      features {
+        {
+          featureid 2,
+          value "-0.000620"
+        }
+      }
+    },
+    {
+      id 166,
+      parent 359,
+      features {
+        {
+          featureid 2,
+          value "0.000995"
+        },
+        {
+          featureid 3,
+          value "MW403695.1 |Homo sapiens|Italy||2020-04-03"
+        },
+        {
+          featureid 1,
+          value "MW403695.1 |Homo sapiens|Italy||2020-04-03"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403695.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-03"
+        }
+      }
+    },
+    {
+      id 358,
+      parent 359,
+      features {
+        {
+          featureid 2,
+          value "-0.000321"
+        }
+      }
+    },
+    {
+      id 165,
+      parent 358,
+      features {
+        {
+          featureid 2,
+          value "0.001315"
+        },
+        {
+          featureid 3,
+          value "MW403692.1 |Homo sapiens|Italy||2020-03-29"
+        },
+        {
+          featureid 1,
+          value "MW403692.1 |Homo sapiens|Italy||2020-03-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW403692.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-29"
+        }
+      }
+    },
+    {
+      id 357,
+      parent 358,
+      features {
+        {
+          featureid 2,
+          value "-0.003480"
+        }
+      }
+    },
+    {
+      id 164,
+      parent 357,
+      features {
+        {
+          featureid 2,
+          value "0.004795"
+        },
+        {
+          featureid 3,
+          value "MW423684.2 |Homo sapiens|Italy||2020-12-22"
+        },
+        {
+          featureid 1,
+          value "MW423684.2 |Homo sapiens|Italy||2020-12-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW423684.2"
+        },
+        {
+          featureid 9,
+          value "2020-12-22"
+        }
+      }
+    },
+    {
+      id 356,
+      parent 357,
+      features {
+        {
+          featureid 2,
+          value "0.003462"
+        }
+      }
+    },
+    {
+      id 163,
+      parent 356,
+      features {
+        {
+          featureid 2,
+          value "0.001333"
+        },
+        {
+          featureid 3,
+          value "MW468415.1 |Homo sapiens|Italy||2020-03-18"
+        },
+        {
+          featureid 1,
+          value "MW468415.1 |Homo sapiens|Italy||2020-03-18"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW468415.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-18"
+        }
+      }
+    },
+    {
+      id 355,
+      parent 356,
+      features {
+        {
+          featureid 2,
+          value "-0.000800"
+        }
+      }
+    },
+    {
+      id 162,
+      parent 355,
+      features {
+        {
+          featureid 2,
+          value "0.002134"
+        },
+        {
+          featureid 3,
+          value "MW322968.1 |Homo sapiens|France||2020-03-06"
+        },
+        {
+          featureid 1,
+          value "MW322968.1 |Homo sapiens|France||2020-03-06"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "France"
+        },
+        {
+          featureid 8,
+          value "MW322968.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-06"
+        }
+      }
+    },
+    {
+      id 354,
+      parent 355,
+      features {
+        {
+          featureid 2,
+          value "-0.002525"
+        }
+      }
+    },
+    {
+      id 161,
+      parent 354,
+      features {
+        {
+          featureid 2,
+          value "0.004658"
+        },
+        {
+          featureid 3,
+          value "MW273791.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 1,
+          value "MW273791.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273791.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-07"
+        }
+      }
+    },
+    {
+      id 353,
+      parent 354,
+      features {
+        {
+          featureid 2,
+          value "0.000996"
+        }
+      }
+    },
+    {
+      id 160,
+      parent 353,
+      features {
+        {
+          featureid 2,
+          value "0.003662"
+        },
+        {
+          featureid 3,
+          value "MW273793.1 |Homo sapiens|Poland||2020-04-22"
+        },
+        {
+          featureid 1,
+          value "MW273793.1 |Homo sapiens|Poland||2020-04-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273793.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-22"
+        }
+      }
+    },
+    {
+      id 352,
+      parent 353,
+      features {
+        {
+          featureid 2,
+          value "-0.001080"
+        }
+      }
+    },
+    {
+      id 159,
+      parent 352,
+      features {
+        {
+          featureid 2,
+          value "0.004742"
+        },
+        {
+          featureid 3,
+          value "MW491232.1 |Homo sapiens|Italy||2021-01-09"
+        },
+        {
+          featureid 1,
+          value "MW491232.1 |Homo sapiens|Italy||2021-01-09"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW491232.1"
+        },
+        {
+          featureid 9,
+          value "2021-01-09"
+        }
+      }
+    },
+    {
+      id 351,
+      parent 352,
+      features {
+        {
+          featureid 2,
+          value "0.000007"
+        }
+      }
+    },
+    {
+      id 158,
+      parent 351,
+      features {
+        {
+          featureid 2,
+          value "0.004735"
+        },
+        {
+          featureid 3,
+          value "MW514307.1 |Homo sapiens|Russia||2020-06-04"
+        },
+        {
+          featureid 1,
+          value "MW514307.1 |Homo sapiens|Russia||2020-06-04"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW514307.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-04"
+        }
+      }
+    },
+    {
+      id 349,
+      parent 351,
+      features {
+        {
+          featureid 2,
+          value "0.004690"
+        }
+      }
+    },
+    {
+      id 156,
+      parent 349,
+      features {
+        {
+          featureid 2,
+          value "0.000046"
+        },
+        {
+          featureid 3,
+          value "MW485248.1 |Homo sapiens|Serbia||2020-07-07"
+        },
+        {
+          featureid 1,
+          value "MW485248.1 |Homo sapiens|Serbia||2020-07-07"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485248.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-07"
+        }
+      }
+    },
+    {
+      id 348,
+      parent 349,
+      features {
+        {
+          featureid 2,
+          value "-0.000868"
+        }
+      }
+    },
+    {
+      id 155,
+      parent 348,
+      features {
+        {
+          featureid 2,
+          value "0.000914"
+        },
+        {
+          featureid 3,
+          value "MW485247.1 |Homo sapiens|Serbia||2020-07-08"
+        },
+        {
+          featureid 1,
+          value "MW485247.1 |Homo sapiens|Serbia||2020-07-08"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485247.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-08"
+        }
+      }
+    },
+    {
+      id 347,
+      parent 348,
+      features {
+        {
+          featureid 2,
+          value "-0.000440"
+        }
+      }
+    },
+    {
+      id 154,
+      parent 347,
+      features {
+        {
+          featureid 2,
+          value "0.001354"
+        },
+        {
+          featureid 3,
+          value "MW485249.1 |Homo sapiens|Serbia||2020-07-15"
+        },
+        {
+          featureid 1,
+          value "MW485249.1 |Homo sapiens|Serbia||2020-07-15"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485249.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-15"
+        }
+      }
+    },
+    {
+      id 346,
+      parent 347,
+      features {
+        {
+          featureid 2,
+          value "-0.000220"
+        }
+      }
+    },
+    {
+      id 153,
+      parent 346,
+      features {
+        {
+          featureid 2,
+          value "0.001574"
+        },
+        {
+          featureid 3,
+          value "MW485243.1 |Homo sapiens|Serbia||2020-08-20"
+        },
+        {
+          featureid 1,
+          value "MW485243.1 |Homo sapiens|Serbia||2020-08-20"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485243.1"
+        },
+        {
+          featureid 9,
+          value "2020-08-20"
+        }
+      }
+    },
+    {
+      id 345,
+      parent 346,
+      features {
+        {
+          featureid 2,
+          value "-0.002431"
+        }
+      }
+    },
+    {
+      id 152,
+      parent 345,
+      features {
+        {
+          featureid 2,
+          value "0.004006"
+        },
+        {
+          featureid 3,
+          value "MW485246.1 |Homo sapiens|Serbia||2020-08-04"
+        },
+        {
+          featureid 1,
+          value "MW485246.1 |Homo sapiens|Serbia||2020-08-04"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485246.1"
+        },
+        {
+          featureid 9,
+          value "2020-08-04"
+        }
+      }
+    },
+    {
+      id 344,
+      parent 345,
+      features {
+        {
+          featureid 2,
+          value "0.002421"
+        }
+      }
+    },
+    {
+      id 151,
+      parent 344,
+      features {
+        {
+          featureid 2,
+          value "0.001584"
+        },
+        {
+          featureid 3,
+          value "MW485245.1 |Homo sapiens|Serbia||2020-04-29"
+        },
+        {
+          featureid 1,
+          value "MW485245.1 |Homo sapiens|Serbia||2020-04-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485245.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-29"
+        }
+      }
+    },
+    {
+      id 343,
+      parent 344,
+      features {
+        {
+          featureid 2,
+          value "-0.001085"
+        }
+      }
+    },
+    {
+      id 150,
+      parent 343,
+      features {
+        {
+          featureid 2,
+          value "0.002670"
+        },
+        {
+          featureid 3,
+          value "MW485244.1 |Homo sapiens|Serbia||2020-04-20"
+        },
+        {
+          featureid 1,
+          value "MW485244.1 |Homo sapiens|Serbia||2020-04-20"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW485244.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-20"
+        }
+      }
+    },
+    {
+      id 342,
+      parent 343,
+      features {
+        {
+          featureid 2,
+          value "-0.000661"
+        }
+      }
+    },
+    {
+      id 149,
+      parent 342,
+      features {
+        {
+          featureid 2,
+          value "0.003331"
+        },
+        {
+          featureid 3,
+          value "MW450666.1 |Homo sapiens|Italy||2020-12-19"
+        },
+        {
+          featureid 1,
+          value "MW450666.1 |Homo sapiens|Italy||2020-12-19"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW450666.1"
+        },
+        {
+          featureid 9,
+          value "2020-12-19"
+        }
+      }
+    },
+    {
+      id 341,
+      parent 342,
+      features {
+        {
+          featureid 2,
+          value "-0.005508"
+        }
+      }
+    },
+    {
+      id 148,
+      parent 341,
+      features {
+        {
+          featureid 2,
+          value "0.008839"
+        },
+        {
+          featureid 3,
+          value "MW451205.1 |Homo sapiens|Italy||2020-12-27"
+        },
+        {
+          featureid 1,
+          value "MW451205.1 |Homo sapiens|Italy||2020-12-27"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW451205.1"
+        },
+        {
+          featureid 9,
+          value "2020-12-27"
+        }
+      }
+    },
+    {
+      id 340,
+      parent 341,
+      features {
+        {
+          featureid 2,
+          value "0.007411"
+        }
+      }
+    },
+    {
+      id 147,
+      parent 340,
+      features {
+        {
+          featureid 2,
+          value "0.001428"
+        },
+        {
+          featureid 3,
+          value "MW305250.1 |Homo sapiens|Russia||2020-03"
+        },
+        {
+          featureid 1,
+          value "MW305250.1 |Homo sapiens|Russia||2020-03"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW305250.1"
+        },
+        {
+          featureid 9,
+          value "2020-03"
+        }
+      }
+    },
+    {
+      id 339,
+      parent 340,
+      features {
+        {
+          featureid 2,
+          value "-0.001185"
+        }
+      }
+    },
+    {
+      id 146,
+      parent 339,
+      features {
+        {
+          featureid 2,
+          value "0.002613"
+        },
+        {
+          featureid 3,
+          value "MW305251.1 |Homo sapiens|Russia||2020-04"
+        },
+        {
+          featureid 1,
+          value "MW305251.1 |Homo sapiens|Russia||2020-04"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW305251.1"
+        },
+        {
+          featureid 9,
+          value "2020-04"
+        }
+      }
+    },
+    {
+      id 338,
+      parent 339,
+      features {
+        {
+          featureid 2,
+          value "-0.002166"
+        }
+      }
+    },
+    {
+      id 145,
+      parent 338,
+      features {
+        {
+          featureid 2,
+          value "0.004779"
+        },
+        {
+          featureid 3,
+          value "MW273796.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 1,
+          value "MW273796.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273796.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-28"
+        }
+      }
+    },
+    {
+      id 337,
+      parent 338,
+      features {
+        {
+          featureid 2,
+          value "0.000783"
+        }
+      }
+    },
+    {
+      id 144,
+      parent 337,
+      features {
+        {
+          featureid 2,
+          value "0.003996"
+        },
+        {
+          featureid 3,
+          value "MW340791.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340791.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340791.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 335,
+      parent 337,
+      features {
+        {
+          featureid 2,
+          value "-0.030102"
+        }
+      }
+    },
+    {
+      id 142,
+      parent 335,
+      features {
+        {
+          featureid 2,
+          value "0.034098"
+        },
+        {
+          featureid 3,
+          value "MW340800.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340800.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340800.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 334,
+      parent 335,
+      features {
+        {
+          featureid 2,
+          value "0.032648"
+        }
+      }
+    },
+    {
+      id 141,
+      parent 334,
+      features {
+        {
+          featureid 2,
+          value "0.001450"
+        },
+        {
+          featureid 3,
+          value "MW340797.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340797.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340797.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 332,
+      parent 334,
+      features {
+        {
+          featureid 2,
+          value "-0.005444"
+        }
+      }
+    },
+    {
+      id 139,
+      parent 332,
+      features {
+        {
+          featureid 2,
+          value "0.006893"
+        },
+        {
+          featureid 3,
+          value "MW340799.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340799.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340799.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 330,
+      parent 332,
+      features {
+        {
+          featureid 2,
+          value "0.005472"
+        }
+      }
+    },
+    {
+      id 137,
+      parent 330,
+      features {
+        {
+          featureid 2,
+          value "0.001421"
+        },
+        {
+          featureid 3,
+          value "MW315983.1 |Homo sapiens|Serbia||2020-07-29"
+        },
+        {
+          featureid 1,
+          value "MW315983.1 |Homo sapiens|Serbia||2020-07-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315983.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-29"
+        }
+      }
+    },
+    {
+      id 329,
+      parent 330,
+      features {
+        {
+          featureid 2,
+          value "-0.002220"
+        }
+      }
+    },
+    {
+      id 136,
+      parent 329,
+      features {
+        {
+          featureid 2,
+          value "0.003642"
+        },
+        {
+          featureid 3,
+          value "MW315973.1 |Homo sapiens|Serbia||2020-07-05"
+        },
+        {
+          featureid 1,
+          value "MW315973.1 |Homo sapiens|Serbia||2020-07-05"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315973.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-05"
+        }
+      }
+    },
+    {
+      id 328,
+      parent 329,
+      features {
+        {
+          featureid 2,
+          value "0.002303"
+        }
+      }
+    },
+    {
+      id 135,
+      parent 328,
+      features {
+        {
+          featureid 2,
+          value "0.001338"
+        },
+        {
+          featureid 3,
+          value "MW327518.1 |Homo sapiens|Serbia||2020-06-24"
+        },
+        {
+          featureid 1,
+          value "MW327518.1 |Homo sapiens|Serbia||2020-06-24"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327518.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-24"
+        }
+      }
+    },
+    {
+      id 327,
+      parent 328,
+      features {
+        {
+          featureid 2,
+          value "-0.001226"
+        }
+      }
+    },
+    {
+      id 134,
+      parent 327,
+      features {
+        {
+          featureid 2,
+          value "0.002564"
+        },
+        {
+          featureid 3,
+          value "MW327530.1 |Homo sapiens|Serbia||2020-04-14"
+        },
+        {
+          featureid 1,
+          value "MW327530.1 |Homo sapiens|Serbia||2020-04-14"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327530.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-14"
+        }
+      }
+    },
+    {
+      id 326,
+      parent 327,
+      features {
+        {
+          featureid 2,
+          value "0.002107"
+        }
+      }
+    },
+    {
+      id 133,
+      parent 326,
+      features {
+        {
+          featureid 2,
+          value "0.000457"
+        },
+        {
+          featureid 3,
+          value "MW327526.1 |Homo sapiens|Serbia||2020-05-28"
+        },
+        {
+          featureid 1,
+          value "MW327526.1 |Homo sapiens|Serbia||2020-05-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327526.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-28"
+        }
+      }
+    },
+    {
+      id 325,
+      parent 326,
+      features {
+        {
+          featureid 2,
+          value "-0.000934"
+        }
+      }
+    },
+    {
+      id 132,
+      parent 325,
+      features {
+        {
+          featureid 2,
+          value "0.001390"
+        },
+        {
+          featureid 3,
+          value "MW327527.1 |Homo sapiens|Serbia||2020-05-28"
+        },
+        {
+          featureid 1,
+          value "MW327527.1 |Homo sapiens|Serbia||2020-05-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327527.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-28"
+        }
+      }
+    },
+    {
+      id 324,
+      parent 325,
+      features {
+        {
+          featureid 2,
+          value "0.000234"
+        }
+      }
+    },
+    {
+      id 131,
+      parent 324,
+      features {
+        {
+          featureid 2,
+          value "0.001156"
+        },
+        {
+          featureid 3,
+          value "MW327510.1 |Homo sapiens|Serbia||2020-04-05"
+        },
+        {
+          featureid 1,
+          value "MW327510.1 |Homo sapiens|Serbia||2020-04-05"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327510.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-05"
+        }
+      }
+    },
+    {
+      id 323,
+      parent 324,
+      features {
+        {
+          featureid 2,
+          value "-0.000757"
+        }
+      }
+    },
+    {
+      id 130,
+      parent 323,
+      features {
+        {
+          featureid 2,
+          value "0.001913"
+        },
+        {
+          featureid 3,
+          value "MW327523.1 |Homo sapiens|Serbia||2020-05-05"
+        },
+        {
+          featureid 1,
+          value "MW327523.1 |Homo sapiens|Serbia||2020-05-05"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327523.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-05"
+        }
+      }
+    },
+    {
+      id 322,
+      parent 323,
+      features {
+        {
+          featureid 2,
+          value "0.001564"
+        }
+      }
+    },
+    {
+      id 129,
+      parent 322,
+      features {
+        {
+          featureid 2,
+          value "0.000349"
+        },
+        {
+          featureid 3,
+          value "MW327516.1 |Homo sapiens|Serbia||2020-04-06"
+        },
+        {
+          featureid 1,
+          value "MW327516.1 |Homo sapiens|Serbia||2020-04-06"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327516.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-06"
+        }
+      }
+    },
+    {
+      id 321,
+      parent 322,
+      features {
+        {
+          featureid 2,
+          value "-0.001191"
+        }
+      }
+    },
+    {
+      id 128,
+      parent 321,
+      features {
+        {
+          featureid 2,
+          value "0.001540"
+        },
+        {
+          featureid 3,
+          value "MW327528.1 |Homo sapiens|Serbia||2020-06-15"
+        },
+        {
+          featureid 1,
+          value "MW327528.1 |Homo sapiens|Serbia||2020-06-15"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327528.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-15"
+        }
+      }
+    },
+    {
+      id 320,
+      parent 321,
+      features {
+        {
+          featureid 2,
+          value "-0.001403"
+        }
+      }
+    },
+    {
+      id 127,
+      parent 320,
+      features {
+        {
+          featureid 2,
+          value "0.002943"
+        },
+        {
+          featureid 3,
+          value "MW327511.1 |Homo sapiens|Serbia||2020-07-11"
+        },
+        {
+          featureid 1,
+          value "MW327511.1 |Homo sapiens|Serbia||2020-07-11"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327511.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-11"
+        }
+      }
+    },
+    {
+      id 319,
+      parent 320,
+      features {
+        {
+          featureid 2,
+          value "0.000365"
+        }
+      }
+    },
+    {
+      id 126,
+      parent 319,
+      features {
+        {
+          featureid 2,
+          value "0.002578"
+        },
+        {
+          featureid 3,
+          value "MW327538.1 |Homo sapiens|Serbia||2020-04-08"
+        },
+        {
+          featureid 1,
+          value "MW327538.1 |Homo sapiens|Serbia||2020-04-08"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327538.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-08"
+        }
+      }
+    },
+    {
+      id 318,
+      parent 319,
+      features {
+        {
+          featureid 2,
+          value "0.001590"
+        }
+      }
+    },
+    {
+      id 125,
+      parent 318,
+      features {
+        {
+          featureid 2,
+          value "0.000988"
+        },
+        {
+          featureid 3,
+          value "MW327535.1 |Homo sapiens|Serbia||2020-04-22"
+        },
+        {
+          featureid 1,
+          value "MW327535.1 |Homo sapiens|Serbia||2020-04-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327535.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-22"
+        }
+      }
+    },
+    {
+      id 317,
+      parent 318,
+      features {
+        {
+          featureid 2,
+          value "-0.000798"
+        }
+      }
+    },
+    {
+      id 124,
+      parent 317,
+      features {
+        {
+          featureid 2,
+          value "0.001786"
+        },
+        {
+          featureid 3,
+          value "MW327512.1 |Homo sapiens|Serbia||2020-03-31"
+        },
+        {
+          featureid 1,
+          value "MW327512.1 |Homo sapiens|Serbia||2020-03-31"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327512.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-31"
+        }
+      }
+    },
+    {
+      id 316,
+      parent 317,
+      features {
+        {
+          featureid 2,
+          value "0.000464"
+        }
+      }
+    },
+    {
+      id 123,
+      parent 316,
+      features {
+        {
+          featureid 2,
+          value "0.001322"
+        },
+        {
+          featureid 3,
+          value "MW327529.1 |Homo sapiens|Serbia||2020-04-13"
+        },
+        {
+          featureid 1,
+          value "MW327529.1 |Homo sapiens|Serbia||2020-04-13"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327529.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-13"
+        }
+      }
+    },
+    {
+      id 315,
+      parent 316,
+      features {
+        {
+          featureid 2,
+          value "-0.000089"
+        }
+      }
+    },
+    {
+      id 122,
+      parent 315,
+      features {
+        {
+          featureid 2,
+          value "0.001411"
+        },
+        {
+          featureid 3,
+          value "MW273789.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 1,
+          value "MW273789.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273789.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-07"
+        }
+      }
+    },
+    {
+      id 314,
+      parent 315,
+      features {
+        {
+          featureid 2,
+          value "-0.000387"
+        }
+      }
+    },
+    {
+      id 121,
+      parent 314,
+      features {
+        {
+          featureid 2,
+          value "0.001797"
+        },
+        {
+          featureid 3,
+          value "MW273784.1 |Homo sapiens|Poland||2020-04-22"
+        },
+        {
+          featureid 1,
+          value "MW273784.1 |Homo sapiens|Poland||2020-04-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273784.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-22"
+        }
+      }
+    },
+    {
+      id 313,
+      parent 314,
+      features {
+        {
+          featureid 2,
+          value "0.000079"
+        }
+      }
+    },
+    {
+      id 120,
+      parent 313,
+      features {
+        {
+          featureid 2,
+          value "0.001719"
+        },
+        {
+          featureid 3,
+          value "MW273804.1 |Homo sapiens|Poland||2020-03-29"
+        },
+        {
+          featureid 1,
+          value "MW273804.1 |Homo sapiens|Poland||2020-03-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273804.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-29"
+        }
+      }
+    },
+    {
+      id 312,
+      parent 313,
+      features {
+        {
+          featureid 2,
+          value "0.000466"
+        }
+      }
+    },
+    {
+      id 119,
+      parent 312,
+      features {
+        {
+          featureid 2,
+          value "0.001253"
+        },
+        {
+          featureid 3,
+          value "MW273802.1 |Homo sapiens|Poland||2020-03-30"
+        },
+        {
+          featureid 1,
+          value "MW273802.1 |Homo sapiens|Poland||2020-03-30"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273802.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-30"
+        }
+      }
+    },
+    {
+      id 311,
+      parent 312,
+      features {
+        {
+          featureid 2,
+          value "-0.000874"
+        }
+      }
+    },
+    {
+      id 118,
+      parent 311,
+      features {
+        {
+          featureid 2,
+          value "0.002126"
+        },
+        {
+          featureid 3,
+          value "MW273801.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 1,
+          value "MW273801.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273801.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-28"
+        }
+      }
+    },
+    {
+      id 310,
+      parent 311,
+      features {
+        {
+          featureid 2,
+          value "-0.001734"
+        }
+      }
+    },
+    {
+      id 117,
+      parent 310,
+      features {
+        {
+          featureid 2,
+          value "0.003860"
+        },
+        {
+          featureid 3,
+          value "MW273792.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 1,
+          value "MW273792.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273792.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-07"
+        }
+      }
+    },
+    {
+      id 309,
+      parent 310,
+      features {
+        {
+          featureid 2,
+          value "0.003036"
+        }
+      }
+    },
+    {
+      id 116,
+      parent 309,
+      features {
+        {
+          featureid 2,
+          value "0.000825"
+        },
+        {
+          featureid 3,
+          value "MW327524.1 |Homo sapiens|Serbia||2020-05-10"
+        },
+        {
+          featureid 1,
+          value "MW327524.1 |Homo sapiens|Serbia||2020-05-10"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327524.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-10"
+        }
+      }
+    },
+    {
+      id 308,
+      parent 309,
+      features {
+        {
+          featureid 2,
+          value "-0.000148"
+        }
+      }
+    },
+    {
+      id 115,
+      parent 308,
+      features {
+        {
+          featureid 2,
+          value "0.000973"
+        },
+        {
+          featureid 3,
+          value "MW327533.1 |Homo sapiens|Serbia||2020-04-20"
+        },
+        {
+          featureid 1,
+          value "MW327533.1 |Homo sapiens|Serbia||2020-04-20"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327533.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-20"
+        }
+      }
+    },
+    {
+      id 307,
+      parent 308,
+      features {
+        {
+          featureid 2,
+          value "-0.001324"
+        }
+      }
+    },
+    {
+      id 114,
+      parent 307,
+      features {
+        {
+          featureid 2,
+          value "0.002297"
+        },
+        {
+          featureid 3,
+          value "MW327525.1 |Homo sapiens|Serbia||2020-05-16"
+        },
+        {
+          featureid 1,
+          value "MW327525.1 |Homo sapiens|Serbia||2020-05-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327525.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-16"
+        }
+      }
+    },
+    {
+      id 306,
+      parent 307,
+      features {
+        {
+          featureid 2,
+          value "0.001112"
+        }
+      }
+    },
+    {
+      id 113,
+      parent 306,
+      features {
+        {
+          featureid 2,
+          value "0.001185"
+        },
+        {
+          featureid 3,
+          value "MW327519.1 |Homo sapiens|Serbia||2020-06-24"
+        },
+        {
+          featureid 1,
+          value "MW327519.1 |Homo sapiens|Serbia||2020-06-24"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327519.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-24"
+        }
+      }
+    },
+    {
+      id 305,
+      parent 306,
+      features {
+        {
+          featureid 2,
+          value "-0.000298"
+        }
+      }
+    },
+    {
+      id 112,
+      parent 305,
+      features {
+        {
+          featureid 2,
+          value "0.001483"
+        },
+        {
+          featureid 3,
+          value "MW327532.1 |Homo sapiens|Serbia||2020-04-16"
+        },
+        {
+          featureid 1,
+          value "MW327532.1 |Homo sapiens|Serbia||2020-04-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327532.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-16"
+        }
+      }
+    },
+    {
+      id 304,
+      parent 305,
+      features {
+        {
+          featureid 2,
+          value "0.000846"
+        }
+      }
+    },
+    {
+      id 111,
+      parent 304,
+      features {
+        {
+          featureid 2,
+          value "0.000638"
+        },
+        {
+          featureid 3,
+          value "MW327522.1 |Homo sapiens|Serbia||2020-05-05"
+        },
+        {
+          featureid 1,
+          value "MW327522.1 |Homo sapiens|Serbia||2020-05-05"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327522.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-05"
+        }
+      }
+    },
+    {
+      id 303,
+      parent 304,
+      features {
+        {
+          featureid 2,
+          value "-0.002035"
+        }
+      }
+    },
+    {
+      id 110,
+      parent 303,
+      features {
+        {
+          featureid 2,
+          value "0.002672"
+        },
+        {
+          featureid 3,
+          value "MW327513.1 |Homo sapiens|Serbia||2020-04-02"
+        },
+        {
+          featureid 1,
+          value "MW327513.1 |Homo sapiens|Serbia||2020-04-02"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327513.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-02"
+        }
+      }
+    },
+    {
+      id 302,
+      parent 303,
+      features {
+        {
+          featureid 2,
+          value "-0.002599"
+        }
+      }
+    },
+    {
+      id 109,
+      parent 302,
+      features {
+        {
+          featureid 2,
+          value "0.005272"
+        },
+        {
+          featureid 3,
+          value "MW327537.1 |Homo sapiens|Serbia||2020-06-15"
+        },
+        {
+          featureid 1,
+          value "MW327537.1 |Homo sapiens|Serbia||2020-06-15"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327537.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-15"
+        }
+      }
+    },
+    {
+      id 301,
+      parent 302,
+      features {
+        {
+          featureid 2,
+          value "0.002399"
+        }
+      }
+    },
+    {
+      id 108,
+      parent 301,
+      features {
+        {
+          featureid 2,
+          value "0.002873"
+        },
+        {
+          featureid 3,
+          value "MW327534.1 |Homo sapiens|Serbia||2020-04-22"
+        },
+        {
+          featureid 1,
+          value "MW327534.1 |Homo sapiens|Serbia||2020-04-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327534.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-22"
+        }
+      }
+    },
+    {
+      id 300,
+      parent 301,
+      features {
+        {
+          featureid 2,
+          value "-0.000374"
+        }
+      }
+    },
+    {
+      id 107,
+      parent 300,
+      features {
+        {
+          featureid 2,
+          value "0.003246"
+        },
+        {
+          featureid 3,
+          value "MW327520.1 |Homo sapiens|Serbia||2020-06-24"
+        },
+        {
+          featureid 1,
+          value "MW327520.1 |Homo sapiens|Serbia||2020-06-24"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327520.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-24"
+        }
+      }
+    },
+    {
+      id 299,
+      parent 300,
+      features {
+        {
+          featureid 2,
+          value "0.000806"
+        }
+      }
+    },
+    {
+      id 106,
+      parent 299,
+      features {
+        {
+          featureid 2,
+          value "0.002441"
+        },
+        {
+          featureid 3,
+          value "MW332230.1 |Homo sapiens|Russia||2020-03-20"
+        },
+        {
+          featureid 1,
+          value "MW332230.1 |Homo sapiens|Russia||2020-03-20"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332230.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-20"
+        }
+      }
+    },
+    {
+      id 298,
+      parent 299,
+      features {
+        {
+          featureid 2,
+          value "-0.001466"
+        }
+      }
+    },
+    {
+      id 105,
+      parent 298,
+      features {
+        {
+          featureid 2,
+          value "0.003907"
+        },
+        {
+          featureid 3,
+          value "MW332225.1 |Homo sapiens|Russia||2020-04-13"
+        },
+        {
+          featureid 1,
+          value "MW332225.1 |Homo sapiens|Russia||2020-04-13"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332225.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-13"
+        }
+      }
+    },
+    {
+      id 297,
+      parent 298,
+      features {
+        {
+          featureid 2,
+          value "0.002867"
+        }
+      }
+    },
+    {
+      id 104,
+      parent 297,
+      features {
+        {
+          featureid 2,
+          value "0.001040"
+        },
+        {
+          featureid 3,
+          value "MW340792.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340792.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340792.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 296,
+      parent 297,
+      features {
+        {
+          featureid 2,
+          value "0.000862"
+        }
+      }
+    },
+    {
+      id 103,
+      parent 296,
+      features {
+        {
+          featureid 2,
+          value "0.000178"
+        },
+        {
+          featureid 3,
+          value "MW340793.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340793.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340793.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 295,
+      parent 296,
+      features {
+        {
+          featureid 2,
+          value "-0.000558"
+        }
+      }
+    },
+    {
+      id 102,
+      parent 295,
+      features {
+        {
+          featureid 2,
+          value "0.000735"
+        },
+        {
+          featureid 3,
+          value "MW340796.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340796.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340796.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 294,
+      parent 295,
+      features {
+        {
+          featureid 2,
+          value "-0.001063"
+        }
+      }
+    },
+    {
+      id 101,
+      parent 294,
+      features {
+        {
+          featureid 2,
+          value "0.001798"
+        },
+        {
+          featureid 3,
+          value "MW273807.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 1,
+          value "MW273807.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273807.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-28"
+        }
+      }
+    },
+    {
+      id 293,
+      parent 294,
+      features {
+        {
+          featureid 2,
+          value "-0.000198"
+        }
+      }
+    },
+    {
+      id 100,
+      parent 293,
+      features {
+        {
+          featureid 2,
+          value "0.001996"
+        },
+        {
+          featureid 3,
+          value "MW273806.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 1,
+          value "MW273806.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273806.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-28"
+        }
+      }
+    },
+    {
+      id 292,
+      parent 293,
+      features {
+        {
+          featureid 2,
+          value "0.001285"
+        }
+      }
+    },
+    {
+      id 99,
+      parent 292,
+      features {
+        {
+          featureid 2,
+          value "0.000712"
+        },
+        {
+          featureid 3,
+          value "MW340798.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340798.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340798.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 291,
+      parent 292,
+      features {
+        {
+          featureid 2,
+          value "0.000412"
+        }
+      }
+    },
+    {
+      id 98,
+      parent 291,
+      features {
+        {
+          featureid 2,
+          value "0.000300"
+        },
+        {
+          featureid 3,
+          value "MW340788.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340788.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340788.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 290,
+      parent 291,
+      features {
+        {
+          featureid 2,
+          value "-0.000582"
+        }
+      }
+    },
+    {
+      id 97,
+      parent 290,
+      features {
+        {
+          featureid 2,
+          value "0.000882"
+        },
+        {
+          featureid 3,
+          value "MW340789.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340789.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340789.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 289,
+      parent 290,
+      features {
+        {
+          featureid 2,
+          value "-0.004705"
+        }
+      }
+    },
+    {
+      id 96,
+      parent 289,
+      features {
+        {
+          featureid 2,
+          value "0.005587"
+        },
+        {
+          featureid 3,
+          value "MW340790.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340790.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340790.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 288,
+      parent 289,
+      features {
+        {
+          featureid 2,
+          value "0.004077"
+        }
+      }
+    },
+    {
+      id 95,
+      parent 288,
+      features {
+        {
+          featureid 2,
+          value "0.001510"
+        },
+        {
+          featureid 3,
+          value "MW273799.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 1,
+          value "MW273799.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273799.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-28"
+        }
+      }
+    },
+    {
+      id 287,
+      parent 288,
+      features {
+        {
+          featureid 2,
+          value "-0.000430"
+        }
+      }
+    },
+    {
+      id 94,
+      parent 287,
+      features {
+        {
+          featureid 2,
+          value "0.001940"
+        },
+        {
+          featureid 3,
+          value "MW273803.1 |Homo sapiens|Poland||2020-03-29"
+        },
+        {
+          featureid 1,
+          value "MW273803.1 |Homo sapiens|Poland||2020-03-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273803.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-29"
+        }
+      }
+    },
+    {
+      id 286,
+      parent 287,
+      features {
+        {
+          featureid 2,
+          value "-0.000895"
+        }
+      }
+    },
+    {
+      id 93,
+      parent 286,
+      features {
+        {
+          featureid 2,
+          value "0.002835"
+        },
+        {
+          featureid 3,
+          value "MW273809.1 |Homo sapiens|Poland||2020-05-12"
+        },
+        {
+          featureid 1,
+          value "MW273809.1 |Homo sapiens|Poland||2020-05-12"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273809.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-12"
+        }
+      }
+    },
+    {
+      id 285,
+      parent 286,
+      features {
+        {
+          featureid 2,
+          value "-0.001521"
+        }
+      }
+    },
+    {
+      id 92,
+      parent 285,
+      features {
+        {
+          featureid 2,
+          value "0.004356"
+        },
+        {
+          featureid 3,
+          value "MW273787.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 1,
+          value "MW273787.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273787.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-07"
+        }
+      }
+    },
+    {
+      id 284,
+      parent 285,
+      features {
+        {
+          featureid 2,
+          value "0.001679"
+        }
+      }
+    },
+    {
+      id 91,
+      parent 284,
+      features {
+        {
+          featureid 2,
+          value "0.002676"
+        },
+        {
+          featureid 3,
+          value "MW273805.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 1,
+          value "MW273805.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273805.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-28"
+        }
+      }
+    },
+    {
+      id 283,
+      parent 284,
+      features {
+        {
+          featureid 2,
+          value "-0.000565"
+        }
+      }
+    },
+    {
+      id 90,
+      parent 283,
+      features {
+        {
+          featureid 2,
+          value "0.003241"
+        },
+        {
+          featureid 3,
+          value "MW273800.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 1,
+          value "MW273800.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273800.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-28"
+        }
+      }
+    },
+    {
+      id 282,
+      parent 283,
+      features {
+        {
+          featureid 2,
+          value "0.002313"
+        }
+      }
+    },
+    {
+      id 89,
+      parent 282,
+      features {
+        {
+          featureid 2,
+          value "0.000928"
+        },
+        {
+          featureid 3,
+          value "MW315965.1 |Homo sapiens|Serbia||2020-06-16"
+        },
+        {
+          featureid 1,
+          value "MW315965.1 |Homo sapiens|Serbia||2020-06-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315965.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-16"
+        }
+      }
+    },
+    {
+      id 281,
+      parent 282,
+      features {
+        {
+          featureid 2,
+          value "-0.000155"
+        }
+      }
+    },
+    {
+      id 88,
+      parent 281,
+      features {
+        {
+          featureid 2,
+          value "0.001083"
+        },
+        {
+          featureid 3,
+          value "MW315972.1 |Homo sapiens|Serbia||2020-07-09"
+        },
+        {
+          featureid 1,
+          value "MW315972.1 |Homo sapiens|Serbia||2020-07-09"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315972.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-09"
+        }
+      }
+    },
+    {
+      id 280,
+      parent 281,
+      features {
+        {
+          featureid 2,
+          value "-0.000716"
+        }
+      }
+    },
+    {
+      id 87,
+      parent 280,
+      features {
+        {
+          featureid 2,
+          value "0.001799"
+        },
+        {
+          featureid 3,
+          value "MW315984.1 |Homo sapiens|Serbia||2020-07-05"
+        },
+        {
+          featureid 1,
+          value "MW315984.1 |Homo sapiens|Serbia||2020-07-05"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315984.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-05"
+        }
+      }
+    },
+    {
+      id 279,
+      parent 280,
+      features {
+        {
+          featureid 2,
+          value "-0.002244"
+        }
+      }
+    },
+    {
+      id 86,
+      parent 279,
+      features {
+        {
+          featureid 2,
+          value "0.004043"
+        },
+        {
+          featureid 3,
+          value "MW316741.1 |Homo sapiens|Serbia||2020-06-24"
+        },
+        {
+          featureid 1,
+          value "MW316741.1 |Homo sapiens|Serbia||2020-06-24"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW316741.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-24"
+        }
+      }
+    },
+    {
+      id 278,
+      parent 279,
+      features {
+        {
+          featureid 2,
+          value "0.003314"
+        }
+      }
+    },
+    {
+      id 85,
+      parent 278,
+      features {
+        {
+          featureid 2,
+          value "0.000730"
+        },
+        {
+          featureid 3,
+          value "MW315980.1 |Homo sapiens|Serbia||2020-06-25"
+        },
+        {
+          featureid 1,
+          value "MW315980.1 |Homo sapiens|Serbia||2020-06-25"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315980.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-25"
+        }
+      }
+    },
+    {
+      id 277,
+      parent 278,
+      features {
+        {
+          featureid 2,
+          value "-0.001201"
+        }
+      }
+    },
+    {
+      id 84,
+      parent 277,
+      features {
+        {
+          featureid 2,
+          value "0.001930"
+        },
+        {
+          featureid 3,
+          value "MW315977.1 |Homo sapiens|Serbia||2020-06-25"
+        },
+        {
+          featureid 1,
+          value "MW315977.1 |Homo sapiens|Serbia||2020-06-25"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315977.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-25"
+        }
+      }
+    },
+    {
+      id 276,
+      parent 277,
+      features {
+        {
+          featureid 2,
+          value "0.000595"
+        }
+      }
+    },
+    {
+      id 83,
+      parent 276,
+      features {
+        {
+          featureid 2,
+          value "0.001335"
+        },
+        {
+          featureid 3,
+          value "MW315975.1 |Homo sapiens|Serbia||2020-03-12"
+        },
+        {
+          featureid 1,
+          value "MW315975.1 |Homo sapiens|Serbia||2020-03-12"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315975.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-12"
+        }
+      }
+    },
+    {
+      id 274,
+      parent 276,
+      features {
+        {
+          featureid 2,
+          value "0.000865"
+        }
+      }
+    },
+    {
+      id 81,
+      parent 274,
+      features {
+        {
+          featureid 2,
+          value "0.000470"
+        },
+        {
+          featureid 3,
+          value "MW315978.1 |Homo sapiens|Serbia||2020-07-09"
+        },
+        {
+          featureid 1,
+          value "MW315978.1 |Homo sapiens|Serbia||2020-07-09"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315978.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-09"
+        }
+      }
+    },
+    {
+      id 273,
+      parent 274,
+      features {
+        {
+          featureid 2,
+          value "-0.000568"
+        }
+      }
+    },
+    {
+      id 80,
+      parent 273,
+      features {
+        {
+          featureid 2,
+          value "0.001039"
+        },
+        {
+          featureid 3,
+          value "MW315979.1 |Homo sapiens|Serbia||2020-07-22"
+        },
+        {
+          featureid 1,
+          value "MW315979.1 |Homo sapiens|Serbia||2020-07-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315979.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-22"
+        }
+      }
+    },
+    {
+      id 272,
+      parent 273,
+      features {
+        {
+          featureid 2,
+          value "-0.001601"
+        }
+      }
+    },
+    {
+      id 79,
+      parent 272,
+      features {
+        {
+          featureid 2,
+          value "0.002640"
+        },
+        {
+          featureid 3,
+          value "MW315970.1 |Homo sapiens|Serbia||2020-06-24"
+        },
+        {
+          featureid 1,
+          value "MW315970.1 |Homo sapiens|Serbia||2020-06-24"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315970.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-24"
+        }
+      }
+    },
+    {
+      id 270,
+      parent 272,
+      features {
+        {
+          featureid 2,
+          value "0.001742"
+        }
+      }
+    },
+    {
+      id 77,
+      parent 270,
+      features {
+        {
+          featureid 2,
+          value "0.000897"
+        },
+        {
+          featureid 3,
+          value "MW315967.1 |Homo sapiens|Serbia||2020-06-25"
+        },
+        {
+          featureid 1,
+          value "MW315967.1 |Homo sapiens|Serbia||2020-06-25"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315967.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-25"
+        }
+      }
+    },
+    {
+      id 269,
+      parent 270,
+      features {
+        {
+          featureid 2,
+          value "-0.000766"
+        }
+      }
+    },
+    {
+      id 76,
+      parent 269,
+      features {
+        {
+          featureid 2,
+          value "0.001663"
+        },
+        {
+          featureid 3,
+          value "MW315985.1 |Homo sapiens|Serbia||2020-04-01"
+        },
+        {
+          featureid 1,
+          value "MW315985.1 |Homo sapiens|Serbia||2020-04-01"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315985.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-01"
+        }
+      }
+    },
+    {
+      id 268,
+      parent 269,
+      features {
+        {
+          featureid 2,
+          value "0.000492"
+        }
+      }
+    },
+    {
+      id 75,
+      parent 268,
+      features {
+        {
+          featureid 2,
+          value "0.001171"
+        },
+        {
+          featureid 3,
+          value "MW315974.1 |Homo sapiens|Serbia||2020-06-25"
+        },
+        {
+          featureid 1,
+          value "MW315974.1 |Homo sapiens|Serbia||2020-06-25"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315974.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-25"
+        }
+      }
+    },
+    {
+      id 267,
+      parent 268,
+      features {
+        {
+          featureid 2,
+          value "-0.001059"
+        }
+      }
+    },
+    {
+      id 74,
+      parent 267,
+      features {
+        {
+          featureid 2,
+          value "0.002230"
+        },
+        {
+          featureid 3,
+          value "MW273785.1 |Homo sapiens|Poland||2020-04-22"
+        },
+        {
+          featureid 1,
+          value "MW273785.1 |Homo sapiens|Poland||2020-04-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273785.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-22"
+        }
+      }
+    },
+    {
+      id 266,
+      parent 267,
+      features {
+        {
+          featureid 2,
+          value "-0.000805"
+        }
+      }
+    },
+    {
+      id 73,
+      parent 266,
+      features {
+        {
+          featureid 2,
+          value "0.003035"
+        },
+        {
+          featureid 3,
+          value "MW315981.1 |Homo sapiens|Serbia||2020-06-25"
+        },
+        {
+          featureid 1,
+          value "MW315981.1 |Homo sapiens|Serbia||2020-06-25"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315981.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-25"
+        }
+      }
+    },
+    {
+      id 265,
+      parent 266,
+      features {
+        {
+          featureid 2,
+          value "-0.000392"
+        }
+      }
+    },
+    {
+      id 72,
+      parent 265,
+      features {
+        {
+          featureid 2,
+          value "0.003427"
+        },
+        {
+          featureid 3,
+          value "MW315982.1 |Homo sapiens|Serbia||2020-07-10"
+        },
+        {
+          featureid 1,
+          value "MW315982.1 |Homo sapiens|Serbia||2020-07-10"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315982.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-10"
+        }
+      }
+    },
+    {
+      id 264,
+      parent 265,
+      features {
+        {
+          featureid 2,
+          value "0.001575"
+        }
+      }
+    },
+    {
+      id 71,
+      parent 264,
+      features {
+        {
+          featureid 2,
+          value "0.001851"
+        },
+        {
+          featureid 3,
+          value "MW332232.1 |Homo sapiens|Russia||2020-04-29"
+        },
+        {
+          featureid 1,
+          value "MW332232.1 |Homo sapiens|Russia||2020-04-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332232.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-29"
+        }
+      }
+    },
+    {
+      id 263,
+      parent 264,
+      features {
+        {
+          featureid 2,
+          value "-0.001737"
+        }
+      }
+    },
+    {
+      id 70,
+      parent 263,
+      features {
+        {
+          featureid 2,
+          value "0.003589"
+        },
+        {
+          featureid 3,
+          value "MW375729.1 |Homo sapiens|Spain||2020-03-25"
+        },
+        {
+          featureid 1,
+          value "MW375729.1 |Homo sapiens|Spain||2020-03-25"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Spain"
+        },
+        {
+          featureid 8,
+          value "MW375729.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-25"
+        }
+      }
+    },
+    {
+      id 262,
+      parent 263,
+      features {
+        {
+          featureid 2,
+          value "-0.000401"
+        }
+      }
+    },
+    {
+      id 69,
+      parent 262,
+      features {
+        {
+          featureid 2,
+          value "0.003989"
+        },
+        {
+          featureid 3,
+          value "MW340795.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340795.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340795.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 261,
+      parent 262,
+      features {
+        {
+          featureid 2,
+          value "0.001316"
+        }
+      }
+    },
+    {
+      id 68,
+      parent 261,
+      features {
+        {
+          featureid 2,
+          value "0.002674"
+        },
+        {
+          featureid 3,
+          value "MW332239.1 |Homo sapiens|Russia||2020-03-16"
+        },
+        {
+          featureid 1,
+          value "MW332239.1 |Homo sapiens|Russia||2020-03-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332239.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-16"
+        }
+      }
+    },
+    {
+      id 260,
+      parent 261,
+      features {
+        {
+          featureid 2,
+          value "0.001767"
+        }
+      }
+    },
+    {
+      id 67,
+      parent 260,
+      features {
+        {
+          featureid 2,
+          value "0.000907"
+        },
+        {
+          featureid 3,
+          value "MW332229.1 |Homo sapiens|Russia||2020-05-03"
+        },
+        {
+          featureid 1,
+          value "MW332229.1 |Homo sapiens|Russia||2020-05-03"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332229.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-03"
+        }
+      }
+    },
+    {
+      id 259,
+      parent 260,
+      features {
+        {
+          featureid 2,
+          value "-0.000506"
+        }
+      }
+    },
+    {
+      id 66,
+      parent 259,
+      features {
+        {
+          featureid 2,
+          value "0.001413"
+        },
+        {
+          featureid 3,
+          value "MW332228.1 |Homo sapiens|Russia||2020-04-11"
+        },
+        {
+          featureid 1,
+          value "MW332228.1 |Homo sapiens|Russia||2020-04-11"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332228.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-11"
+        }
+      }
+    },
+    {
+      id 258,
+      parent 259,
+      features {
+        {
+          featureid 2,
+          value "-0.000970"
+        }
+      }
+    },
+    {
+      id 65,
+      parent 258,
+      features {
+        {
+          featureid 2,
+          value "0.002383"
+        },
+        {
+          featureid 3,
+          value "MW332226.1 |Homo sapiens|Russia||2020-07-30"
+        },
+        {
+          featureid 1,
+          value "MW332226.1 |Homo sapiens|Russia||2020-07-30"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332226.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-30"
+        }
+      }
+    },
+    {
+      id 257,
+      parent 258,
+      features {
+        {
+          featureid 2,
+          value "-0.000784"
+        }
+      }
+    },
+    {
+      id 64,
+      parent 257,
+      features {
+        {
+          featureid 2,
+          value "0.003167"
+        },
+        {
+          featureid 3,
+          value "MW375728.1 |Homo sapiens|Spain||2020-03-28"
+        },
+        {
+          featureid 1,
+          value "MW375728.1 |Homo sapiens|Spain||2020-03-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Spain"
+        },
+        {
+          featureid 8,
+          value "MW375728.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-28"
+        }
+      }
+    },
+    {
+      id 256,
+      parent 257,
+      features {
+        {
+          featureid 2,
+          value "-0.000263"
+        }
+      }
+    },
+    {
+      id 63,
+      parent 256,
+      features {
+        {
+          featureid 2,
+          value "0.003430"
+        },
+        {
+          featureid 3,
+          value "MW375727.1 |Homo sapiens|Spain||2020-03-05"
+        },
+        {
+          featureid 1,
+          value "MW375727.1 |Homo sapiens|Spain||2020-03-05"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Spain"
+        },
+        {
+          featureid 8,
+          value "MW375727.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-05"
+        }
+      }
+    },
+    {
+      id 255,
+      parent 256,
+      features {
+        {
+          featureid 2,
+          value "0.002213"
+        }
+      }
+    },
+    {
+      id 62,
+      parent 255,
+      features {
+        {
+          featureid 2,
+          value "0.001217"
+        },
+        {
+          featureid 3,
+          value "MW375731.1 |Homo sapiens|Spain||2020-04-14"
+        },
+        {
+          featureid 1,
+          value "MW375731.1 |Homo sapiens|Spain||2020-04-14"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Spain"
+        },
+        {
+          featureid 8,
+          value "MW375731.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-14"
+        }
+      }
+    },
+    {
+      id 254,
+      parent 255,
+      features {
+        {
+          featureid 2,
+          value "-0.000348"
+        }
+      }
+    },
+    {
+      id 61,
+      parent 254,
+      features {
+        {
+          featureid 2,
+          value "0.001565"
+        },
+        {
+          featureid 3,
+          value "MW273797.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 1,
+          value "MW273797.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273797.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-28"
+        }
+      }
+    },
+    {
+      id 253,
+      parent 254,
+      features {
+        {
+          featureid 2,
+          value "-0.000593"
+        }
+      }
+    },
+    {
+      id 60,
+      parent 253,
+      features {
+        {
+          featureid 2,
+          value "0.002157"
+        },
+        {
+          featureid 3,
+          value "MW273783.1 |Homo sapiens|Poland||2020-04-23"
+        },
+        {
+          featureid 1,
+          value "MW273783.1 |Homo sapiens|Poland||2020-04-23"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273783.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-23"
+        }
+      }
+    },
+    {
+      id 252,
+      parent 253,
+      features {
+        {
+          featureid 2,
+          value "-0.003090"
+        }
+      }
+    },
+    {
+      id 59,
+      parent 252,
+      features {
+        {
+          featureid 2,
+          value "0.005247"
+        },
+        {
+          featureid 3,
+          value "MW340787.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 1,
+          value "MW340787.1 |Homo sapiens|Italy||2020-06-29"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW340787.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-29"
+        }
+      }
+    },
+    {
+      id 251,
+      parent 252,
+      features {
+        {
+          featureid 2,
+          value "0.002488"
+        }
+      }
+    },
+    {
+      id 58,
+      parent 251,
+      features {
+        {
+          featureid 2,
+          value "0.002759"
+        },
+        {
+          featureid 3,
+          value "MW332236.1 |Homo sapiens|Russia||2020-07-28"
+        },
+        {
+          featureid 1,
+          value "MW332236.1 |Homo sapiens|Russia||2020-07-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332236.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-28"
+        }
+      }
+    },
+    {
+      id 250,
+      parent 251,
+      features {
+        {
+          featureid 2,
+          value "0.000001"
+        }
+      }
+    },
+    {
+      id 57,
+      parent 250,
+      features {
+        {
+          featureid 2,
+          value "0.002758"
+        },
+        {
+          featureid 3,
+          value "MW332231.1 |Homo sapiens|Russia||2020-03-18"
+        },
+        {
+          featureid 1,
+          value "MW332231.1 |Homo sapiens|Russia||2020-03-18"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332231.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-18"
+        }
+      }
+    },
+    {
+      id 249,
+      parent 250,
+      features {
+        {
+          featureid 2,
+          value "0.000757"
+        }
+      }
+    },
+    {
+      id 56,
+      parent 249,
+      features {
+        {
+          featureid 2,
+          value "0.002001"
+        },
+        {
+          featureid 3,
+          value "MW332227.1 |Homo sapiens|Russia||2020-03-18"
+        },
+        {
+          featureid 1,
+          value "MW332227.1 |Homo sapiens|Russia||2020-03-18"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332227.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-18"
+        }
+      }
+    },
+    {
+      id 248,
+      parent 249,
+      features {
+        {
+          featureid 2,
+          value "-0.000982"
+        }
+      }
+    },
+    {
+      id 55,
+      parent 248,
+      features {
+        {
+          featureid 2,
+          value "0.002983"
+        },
+        {
+          featureid 3,
+          value "MW332237.1 |Homo sapiens|Russia||2020-07-30"
+        },
+        {
+          featureid 1,
+          value "MW332237.1 |Homo sapiens|Russia||2020-07-30"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332237.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-30"
+        }
+      }
+    },
+    {
+      id 247,
+      parent 248,
+      features {
+        {
+          featureid 2,
+          value "0.000799"
+        }
+      }
+    },
+    {
+      id 54,
+      parent 247,
+      features {
+        {
+          featureid 2,
+          value "0.002184"
+        },
+        {
+          featureid 3,
+          value "MW332233.1 |Homo sapiens|Russia||2020-07-30"
+        },
+        {
+          featureid 1,
+          value "MW332233.1 |Homo sapiens|Russia||2020-07-30"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332233.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-30"
+        }
+      }
+    },
+    {
+      id 246,
+      parent 247,
+      features {
+        {
+          featureid 2,
+          value "-0.000248"
+        }
+      }
+    },
+    {
+      id 53,
+      parent 246,
+      features {
+        {
+          featureid 2,
+          value "0.002432"
+        },
+        {
+          featureid 3,
+          value "MW332238.1 |Homo sapiens|Russia||2020-07-22"
+        },
+        {
+          featureid 1,
+          value "MW332238.1 |Homo sapiens|Russia||2020-07-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332238.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-22"
+        }
+      }
+    },
+    {
+      id 245,
+      parent 246,
+      features {
+        {
+          featureid 2,
+          value "-0.002734"
+        }
+      }
+    },
+    {
+      id 52,
+      parent 245,
+      features {
+        {
+          featureid 2,
+          value "0.005166"
+        },
+        {
+          featureid 3,
+          value "MW332241.1 |Homo sapiens|Russia||2020-08-11"
+        },
+        {
+          featureid 1,
+          value "MW332241.1 |Homo sapiens|Russia||2020-08-11"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332241.1"
+        },
+        {
+          featureid 9,
+          value "2020-08-11"
+        }
+      }
+    },
+    {
+      id 243,
+      parent 245,
+      features {
+        {
+          featureid 2,
+          value "0.001955"
+        }
+      }
+    },
+    {
+      id 50,
+      parent 243,
+      features {
+        {
+          featureid 2,
+          value "0.003210"
+        },
+        {
+          featureid 3,
+          value "MW332235.1 |Homo sapiens|Russia||2020-05-02"
+        },
+        {
+          featureid 1,
+          value "MW332235.1 |Homo sapiens|Russia||2020-05-02"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332235.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-02"
+        }
+      }
+    },
+    {
+      id 242,
+      parent 243,
+      features {
+        {
+          featureid 2,
+          value "0.000260"
+        }
+      }
+    },
+    {
+      id 49,
+      parent 242,
+      features {
+        {
+          featureid 2,
+          value "0.002950"
+        },
+        {
+          featureid 3,
+          value "MW332240.1 |Homo sapiens|Russia||2020-04-08"
+        },
+        {
+          featureid 1,
+          value "MW332240.1 |Homo sapiens|Russia||2020-04-08"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332240.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-08"
+        }
+      }
+    },
+    {
+      id 241,
+      parent 242,
+      features {
+        {
+          featureid 2,
+          value "0.000547"
+        }
+      }
+    },
+    {
+      id 48,
+      parent 241,
+      features {
+        {
+          featureid 2,
+          value "0.002404"
+        },
+        {
+          featureid 3,
+          value "MW332234.1 |Homo sapiens|Russia||2020-07-31"
+        },
+        {
+          featureid 1,
+          value "MW332234.1 |Homo sapiens|Russia||2020-07-31"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW332234.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-31"
+        }
+      }
+    },
+    {
+      id 240,
+      parent 241,
+      features {
+        {
+          featureid 2,
+          value "-0.000183"
+        }
+      }
+    },
+    {
+      id 47,
+      parent 240,
+      features {
+        {
+          featureid 2,
+          value "0.002587"
+        },
+        {
+          featureid 3,
+          value "MW315968.1 |Homo sapiens|Serbia||2020-07-03"
+        },
+        {
+          featureid 1,
+          value "MW315968.1 |Homo sapiens|Serbia||2020-07-03"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315968.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-03"
+        }
+      }
+    },
+    {
+      id 239,
+      parent 240,
+      features {
+        {
+          featureid 2,
+          value "-0.000343"
+        }
+      }
+    },
+    {
+      id 46,
+      parent 239,
+      features {
+        {
+          featureid 2,
+          value "0.002929"
+        },
+        {
+          featureid 3,
+          value "MW315971.1 |Homo sapiens|Serbia||2020-06-16"
+        },
+        {
+          featureid 1,
+          value "MW315971.1 |Homo sapiens|Serbia||2020-06-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315971.1"
+        },
+        {
+          featureid 9,
+          value "2020-06-16"
+        }
+      }
+    },
+    {
+      id 238,
+      parent 239,
+      features {
+        {
+          featureid 2,
+          value "0.001523"
+        }
+      }
+    },
+    {
+      id 45,
+      parent 238,
+      features {
+        {
+          featureid 2,
+          value "0.001406"
+        },
+        {
+          featureid 3,
+          value "MW273788.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 1,
+          value "MW273788.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273788.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-07"
+        }
+      }
+    },
+    {
+      id 237,
+      parent 238,
+      features {
+        {
+          featureid 2,
+          value "-0.000222"
+        }
+      }
+    },
+    {
+      id 44,
+      parent 237,
+      features {
+        {
+          featureid 2,
+          value "0.001628"
+        },
+        {
+          featureid 3,
+          value "MW273786.1 |Homo sapiens|Poland||2020-04-22"
+        },
+        {
+          featureid 1,
+          value "MW273786.1 |Homo sapiens|Poland||2020-04-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273786.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-22"
+        }
+      }
+    },
+    {
+      id 236,
+      parent 237,
+      features {
+        {
+          featureid 2,
+          value "0.000283"
+        }
+      }
+    },
+    {
+      id 43,
+      parent 236,
+      features {
+        {
+          featureid 2,
+          value "0.001345"
+        },
+        {
+          featureid 3,
+          value "MW273798.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 1,
+          value "MW273798.1 |Homo sapiens|Poland||2020-03-28"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273798.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-28"
+        }
+      }
+    },
+    {
+      id 235,
+      parent 236,
+      features {
+        {
+          featureid 2,
+          value "-0.000081"
+        }
+      }
+    },
+    {
+      id 42,
+      parent 235,
+      features {
+        {
+          featureid 2,
+          value "0.001426"
+        },
+        {
+          featureid 3,
+          value "MW273808.1 |Homo sapiens|Poland||2020-05-12"
+        },
+        {
+          featureid 1,
+          value "MW273808.1 |Homo sapiens|Poland||2020-05-12"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273808.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-12"
+        }
+      }
+    },
+    {
+      id 234,
+      parent 235,
+      features {
+        {
+          featureid 2,
+          value "-0.000185"
+        }
+      }
+    },
+    {
+      id 41,
+      parent 234,
+      features {
+        {
+          featureid 2,
+          value "0.001611"
+        },
+        {
+          featureid 3,
+          value "MW315976.1 |Homo sapiens|Serbia||2020-07-22"
+        },
+        {
+          featureid 1,
+          value "MW315976.1 |Homo sapiens|Serbia||2020-07-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW315976.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-22"
+        }
+      }
+    },
+    {
+      id 233,
+      parent 234,
+      features {
+        {
+          featureid 2,
+          value "-0.000036"
+        }
+      }
+    },
+    {
+      id 40,
+      parent 233,
+      features {
+        {
+          featureid 2,
+          value "0.001647"
+        },
+        {
+          featureid 3,
+          value "MW273790.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 1,
+          value "MW273790.1 |Homo sapiens|Poland||2020-04-07"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Poland"
+        },
+        {
+          featureid 8,
+          value "MW273790.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-07"
+        }
+      }
+    },
+    {
+      id 232,
+      parent 233,
+      features {
+        {
+          featureid 2,
+          value "0.000833"
+        }
+      }
+    },
+    {
+      id 39,
+      parent 232,
+      features {
+        {
+          featureid 2,
+          value "0.000813"
+        },
+        {
+          featureid 3,
+          value "MW375730.1 |Homo sapiens|Spain||2020-03-27"
+        },
+        {
+          featureid 1,
+          value "MW375730.1 |Homo sapiens|Spain||2020-03-27"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Spain"
+        },
+        {
+          featureid 8,
+          value "MW375730.1"
+        },
+        {
+          featureid 9,
+          value "2020-03-27"
+        }
+      }
+    },
+    {
+      id 231,
+      parent 232,
+      features {
+        {
+          featureid 2,
+          value "-0.000053"
+        }
+      }
+    },
+    {
+      id 38,
+      parent 231,
+      features {
+        {
+          featureid 2,
+          value "0.000867"
+        },
+        {
+          featureid 3,
+          value "MW327539.1 |Homo sapiens|Serbia||2020-04-08"
+        },
+        {
+          featureid 1,
+          value "MW327539.1 |Homo sapiens|Serbia||2020-04-08"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327539.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-08"
+        }
+      }
+    },
+    {
+      id 230,
+      parent 231,
+      features {
+        {
+          featureid 2,
+          value "0.000441"
+        }
+      }
+    },
+    {
+      id 37,
+      parent 230,
+      features {
+        {
+          featureid 2,
+          value "0.000425"
+        },
+        {
+          featureid 3,
+          value "MW327521.1 |Homo sapiens|Serbia||2020-05-05"
+        },
+        {
+          featureid 1,
+          value "MW327521.1 |Homo sapiens|Serbia||2020-05-05"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327521.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-05"
+        }
+      }
+    },
+    {
+      id 229,
+      parent 230,
+      features {
+        {
+          featureid 2,
+          value "-0.000243"
+        }
+      }
+    },
+    {
+      id 36,
+      parent 229,
+      features {
+        {
+          featureid 2,
+          value "0.000668"
+        },
+        {
+          featureid 3,
+          value "MW327515.1 |Homo sapiens|Serbia||2020-07-08"
+        },
+        {
+          featureid 1,
+          value "MW327515.1 |Homo sapiens|Serbia||2020-07-08"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327515.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-08"
+        }
+      }
+    },
+    {
+      id 228,
+      parent 229,
+      features {
+        {
+          featureid 2,
+          value "0.000161"
+        }
+      }
+    },
+    {
+      id 35,
+      parent 228,
+      features {
+        {
+          featureid 2,
+          value "0.000507"
+        },
+        {
+          featureid 3,
+          value "MW327514.1 |Homo sapiens|Serbia||2020-05-01"
+        },
+        {
+          featureid 1,
+          value "MW327514.1 |Homo sapiens|Serbia||2020-05-01"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327514.1"
+        },
+        {
+          featureid 9,
+          value "2020-05-01"
+        }
+      }
+    },
+    {
+      id 227,
+      parent 228,
+      features {
+        {
+          featureid 2,
+          value "0.000320"
+        }
+      }
+    },
+    {
+      id 34,
+      parent 227,
+      features {
+        {
+          featureid 2,
+          value "0.000187"
+        },
+        {
+          featureid 3,
+          value "MW327517.1 |Homo sapiens|Serbia||2020-04-08"
+        },
+        {
+          featureid 1,
+          value "MW327517.1 |Homo sapiens|Serbia||2020-04-08"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327517.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-08"
+        }
+      }
+    },
+    {
+      id 226,
+      parent 227,
+      features {
+        {
+          featureid 2,
+          value "0.000066"
+        }
+      }
+    },
+    {
+      id 33,
+      parent 226,
+      features {
+        {
+          featureid 2,
+          value "0.000121"
+        },
+        {
+          featureid 3,
+          value "MW327536.1 |Homo sapiens|Serbia||2020-04-27"
+        },
+        {
+          featureid 1,
+          value "MW327536.1 |Homo sapiens|Serbia||2020-04-27"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327536.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-27"
+        }
+      }
+    },
+    {
+      id 225,
+      parent 226,
+      features {
+        {
+          featureid 2,
+          value "0.000121"
+        }
+      }
+    },
+    {
+      id 32,
+      parent 225,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW327531.1 |Homo sapiens|Serbia||2020-04-15"
+        },
+        {
+          featureid 1,
+          value "MW327531.1 |Homo sapiens|Serbia||2020-04-15"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW327531.1"
+        },
+        {
+          featureid 9,
+          value "2020-04-15"
+        }
+      }
+    },
+    {
+      id 224,
+      parent 225,
+      features {
+        {
+          featureid 2,
+          value "-0.021962"
+        }
+      }
+    },
+    {
+      id 27,
+      parent 224,
+      features {
+        {
+          featureid 2,
+          value "0.021962"
+        },
+        {
+          featureid 3,
+          value "MW397519.1 |Homo sapiens|Russia||2020-10-13"
+        },
+        {
+          featureid 1,
+          value "MW397519.1 |Homo sapiens|Russia||2020-10-13"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW397519.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-13"
+        }
+      }
+    },
+    {
+      id 223,
+      parent 224,
+      features {
+        {
+          featureid 2,
+          value "-0.006136"
+        }
+      }
+    },
+    {
+      id 26,
+      parent 223,
+      features {
+        {
+          featureid 2,
+          value "0.028099"
+        },
+        {
+          featureid 3,
+          value "MW397513.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 1,
+          value "MW397513.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW397513.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-12"
+        }
+      }
+    },
+    {
+      id 219,
+      parent 223,
+      features {
+        {
+          featureid 2,
+          value "-0.141143"
+        }
+      }
+    },
+    {
+      id 19,
+      parent 219,
+      features {
+        {
+          featureid 2,
+          value "0.169242"
+        },
+        {
+          featureid 3,
+          value "MW397517.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 1,
+          value "MW397517.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW397517.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-16"
+        }
+      }
+    },
+    {
+      id 218,
+      parent 219,
+      features {
+        {
+          featureid 2,
+          value "-0.254568"
+        }
+      }
+    },
+    {
+      id 18,
+      parent 218,
+      features {
+        {
+          featureid 2,
+          value "0.423810"
+        },
+        {
+          featureid 3,
+          value "MW471658.1 |Homo sapiens|Serbia||2020-02-07"
+        },
+        {
+          featureid 1,
+          value "MW471658.1 |Homo sapiens|Serbia||2020-02-07"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Serbia"
+        },
+        {
+          featureid 8,
+          value "MW471658.1"
+        },
+        {
+          featureid 9,
+          value "2020-02-07"
+        }
+      }
+    },
+    {
+      id 217,
+      parent 218,
+      features {
+        {
+          featureid 2,
+          value "0.045662"
+        }
+      }
+    },
+    {
+      id 17,
+      parent 217,
+      features {
+        {
+          featureid 2,
+          value "0.378148"
+        },
+        {
+          featureid 3,
+          value "MW441315.1 |Homo sapiens|France||2020-10-09"
+        },
+        {
+          featureid 1,
+          value "MW441315.1 |Homo sapiens|France||2020-10-09"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "France"
+        },
+        {
+          featureid 8,
+          value "MW441315.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-09"
+        }
+      }
+    },
+    {
+      id 216,
+      parent 217,
+      features {
+        {
+          featureid 2,
+          value "0.062618"
+        }
+      }
+    },
+    {
+      id 13,
+      parent 216,
+      features {
+        {
+          featureid 2,
+          value "0.315530"
+        },
+        {
+          featureid 3,
+          value "MW521144.1 |Homo sapiens|Italy||2021-01-22"
+        },
+        {
+          featureid 1,
+          value "MW521144.1 |Homo sapiens|Italy||2021-01-22"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW521144.1"
+        },
+        {
+          featureid 9,
+          value "2021-01-22"
+        }
+      }
+    },
+    {
+      id 215,
+      parent 216,
+      features {
+        {
+          featureid 2,
+          value "0.300975"
+        }
+      }
+    },
+    {
+      id 11,
+      parent 215,
+      features {
+        {
+          featureid 2,
+          value "0.014554"
+        },
+        {
+          featureid 3,
+          value "MW362225.1 |Homo sapiens|Russia||2020-10-13"
+        },
+        {
+          featureid 1,
+          value "MW362225.1 |Homo sapiens|Russia||2020-10-13"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW362225.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-13"
+        }
+      }
+    },
+    {
+      id 214,
+      parent 215,
+      features {
+        {
+          featureid 2,
+          value "-0.004023"
+        }
+      }
+    },
+    {
+      id 9,
+      parent 214,
+      features {
+        {
+          featureid 2,
+          value "0.018577"
+        },
+        {
+          featureid 3,
+          value "MW362246.1 |Homo sapiens|Russia||2020-07-15"
+        },
+        {
+          featureid 1,
+          value "MW362246.1 |Homo sapiens|Russia||2020-07-15"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW362246.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-15"
+        }
+      }
+    },
+    {
+      id 213,
+      parent 214,
+      features {
+        {
+          featureid 2,
+          value "-0.035177"
+        }
+      }
+    },
+    {
+      id 8,
+      parent 213,
+      features {
+        {
+          featureid 2,
+          value "0.053754"
+        },
+        {
+          featureid 3,
+          value "MW362247.1 |Homo sapiens|Russia||2020-07-14"
+        },
+        {
+          featureid 1,
+          value "MW362247.1 |Homo sapiens|Russia||2020-07-14"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW362247.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-14"
+        }
+      }
+    },
+    {
+      id 212,
+      parent 213,
+      features {
+        {
+          featureid 2,
+          value "-0.093442"
+        }
+      }
+    },
+    {
+      id 7,
+      parent 212,
+      features {
+        {
+          featureid 2,
+          value "0.147196"
+        },
+        {
+          featureid 3,
+          value "MW303957.1 |Homo sapiens|Italy||2019-12-05"
+        },
+        {
+          featureid 1,
+          value "MW303957.1 |Homo sapiens|Italy||2019-12-05"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Italy"
+        },
+        {
+          featureid 8,
+          value "MW303957.1"
+        },
+        {
+          featureid 9,
+          value "2019-12-05"
+        }
+      }
+    },
+    {
+      id 211,
+      parent 212,
+      features {
+        {
+          featureid 2,
+          value "0.146139"
+        }
+      }
+    },
+    {
+      id 5,
+      parent 211,
+      features {
+        {
+          featureid 2,
+          value "0.001058"
+        },
+        {
+          featureid 3,
+          value "MW362248.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 1,
+          value "MW362248.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW362248.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-16"
+        }
+      }
+    },
+    {
+      id 210,
+      parent 211,
+      features {
+        {
+          featureid 2,
+          value "0.000699"
+        }
+      }
+    },
+    {
+      id 4,
+      parent 210,
+      features {
+        {
+          featureid 2,
+          value "0.000359"
+        },
+        {
+          featureid 3,
+          value "MW362224.1 |Homo sapiens|Russia||2020-10-13"
+        },
+        {
+          featureid 1,
+          value "MW362224.1 |Homo sapiens|Russia||2020-10-13"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW362224.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-13"
+        }
+      }
+    },
+    {
+      id 204,
+      parent 210,
+      features {
+        {
+          featureid 2,
+          value "0.000359"
+        }
+      }
+    },
+    {
+      id 203,
+      parent 204,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 4,
+          value "0"
+        }
+      }
+    },
+    {
+      id 202,
+      parent 203,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 4,
+          value "0"
+        }
+      }
+    },
+    {
+      id 201,
+      parent 202,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 4,
+          value "0"
+        }
+      }
+    },
+    {
+      id 200,
+      parent 201,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 4,
+          value "0"
+        }
+      }
+    },
+    {
+      id 0,
+      parent 200,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW368765.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 1,
+          value "MW368765.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW368765.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-16"
+        }
+      }
+    },
+    {
+      id 1,
+      parent 200,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW362226.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 1,
+          value "MW362226.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW362226.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-12"
+        }
+      }
+    },
+    {
+      id 6,
+      parent 201,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW362249.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 1,
+          value "MW362249.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW362249.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-16"
+        }
+      }
+    },
+    {
+      id 10,
+      parent 202,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW362227.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 1,
+          value "MW362227.1 |Homo sapiens|Russia||2020-10-12"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW362227.1"
+        },
+        {
+          featureid 9,
+          value "2020-10-12"
+        }
+      }
+    },
+    {
+      id 25,
+      parent 203,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW397518.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 1,
+          value "MW397518.1 |Homo sapiens|Russia||2020-07-16"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Russia"
+        },
+        {
+          featureid 8,
+          value "MW397518.1"
+        },
+        {
+          featureid 9,
+          value "2020-07-16"
+        }
+      }
+    },
+    {
+      id 28,
+      parent 204,
+      features {
+        {
+          featureid 2,
+          value "0.000000"
+        },
+        {
+          featureid 3,
+          value "MW368439.1 |Homo sapiens|Belgium||2020-02-03"
+        },
+        {
+          featureid 1,
+          value "MW368439.1 |Homo sapiens|Belgium||2020-02-03"
+        },
+        {
+          featureid 6,
+          value "Homo sapiens"
+        },
+        {
+          featureid 7,
+          value "Belgium"
+        },
+        {
+          featureid 8,
+          value "MW368439.1"
+        },
+        {
+          featureid 9,
+          value "2020-02-03"
+        }
+      }
+    }
+  }
+}
