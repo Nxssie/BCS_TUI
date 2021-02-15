@@ -1,0 +1,47 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav mode="over" role="navigation">
+    <mat-toolbar color="primary">
+      <span> Welcome </span>
+    </mat-toolbar>
+    <mat-action-list>
+      <button
+        mat-list-item
+        class="nav-button"
+        routerLink="/home"
+        (click)="sidenav.close()"
+      >
+        <mat-icon class="nav-icon">home </mat-icon> <span>Home</span>
+      </button>
+      <button
+        mat-list-item
+        class="nav-button"
+        routerLink="/msa"
+        (click)="sidenav.close()"
+      >
+        <span>MSA Viewer</span>
+      </button>
+      <button
+        mat-list-item
+        class="nav-button"
+        routerLink="/igv"
+        (click)="sidenav.close()"
+      >
+        <span>IGV</span>
+      </button>
+    </mat-action-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <button
+        id="menu-button"
+        mat-mini-fab
+        color="primary"
+        (click)="sidenav.open()"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+      <p id="toolbar-title">BCS TUI</p>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { IGVComponent } from './components/igv/igv.component';
+import { MsaComponent } from './components/msa/msa.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: 'msa', component: MsaComponent},
+  {path: 'igv', component: IGVComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
