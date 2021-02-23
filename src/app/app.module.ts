@@ -28,13 +28,15 @@ import { IGVComponent } from './components/igv/igv.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MsaComponent } from './components/msa/msa.component';
+import { AuspiceComponent } from './components/auspice/auspice.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
     IGVComponent,
-    MsaComponent
+    MsaComponent,
+    AuspiceComponent,
   ],
   imports: [
     BrowserModule,
