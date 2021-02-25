@@ -4,24 +4,41 @@
       <span> Welcome </span>
     </mat-toolbar>
     <mat-action-list>
-      <button mat-list-item class="nav-button" routerLink="/home" (click)="sidenav.close()">
+      <button mat-list-item class="nav-button" routerLink="/" (click)="sidenav.close()">
         <mat-icon class="nav-icon">home </mat-icon> <span>Home</span>
       </button>
       <mat-divider></mat-divider>
-      <mat-list-item>Sequence viewers</mat-list-item>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Sequence viewers
+          </mat-panel-title>
+          <mat-panel-description>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <button mat-list-item class="nav-button" routerLink="/msa" (click)="sidenav.close()">
+          <span>MSA Viewer</span>
+        </button>
+        <button mat-list-item class="nav-button" routerLink="/igv" (click)="sidenav.close()">
+          <span>IGV</span>
+        </button>
+        <button mat-list-item class="nav-button" routerLink="/ncbi" (click)="sidenav.close()">
+          <span>NCBI</span>
+        </button>
+      </mat-expansion-panel>
       <mat-divider></mat-divider>
-      <button mat-list-item class="nav-button" routerLink="/msa" (click)="sidenav.close()">
-        <span>MSA Viewer</span>
-      </button>
-      <button mat-list-item class="nav-button" routerLink="/igv" (click)="sidenav.close()">
-        <span>IGV</span>
-      </button>
-      <mat-divider></mat-divider>
-      <mat-list-item>Phylogenetic tree viewers</mat-list-item>
-      <mat-divider></mat-divider>
-      <button mat-list-item class="nav-button" routerLink="/au" (click)="sidenav.close()">
-        <span>Auspice</span>
-      </button>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Phylogenetic tree viewers
+          </mat-panel-title>
+          <mat-panel-description>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <button mat-list-item class="nav-button" routerLink="/au" (click)="sidenav.close()">
+          <span>Auspice</span>
+        </button>
+      </mat-expansion-panel>
     </mat-action-list>
   </mat-sidenav>
   <mat-sidenav-content>

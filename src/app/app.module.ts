@@ -7,6 +7,7 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
+import {MatExpansionModule} from '@angular/material/expansion';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
@@ -29,6 +30,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MsaComponent } from './components/msa/msa.component';
 import { AuspiceComponent } from './components/auspice/auspice.component';
+import { NcbiComponent } from './components/ncbi/ncbi.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,7 @@ import { AuspiceComponent } from './components/auspice/auspice.component';
     IGVComponent,
     MsaComponent,
     AuspiceComponent,
+    NcbiComponent,
   ],
   imports: [
     BrowserModule,
@@ -51,6 +54,7 @@ import { AuspiceComponent } from './components/auspice/auspice.component';
     MatCheckboxModule,
     MatListModule,
     MatTableModule,
+    MatExpansionModule,
     MatPaginatorModule,
     MatSortModule,
     MatSnackBarModule,

@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuspiceComponent } from './components/auspice/auspice.component';
 import { IGVComponent } from './components/igv/igv.component';
 import { MsaComponent } from './components/msa/msa.component';
+import { NcbiComponent } from './components/ncbi/ncbi.component';
 
 const routes: Routes = [
   {path: 'msa', component: MsaComponent},
   {path: 'igv', component: IGVComponent},
-  {path: 'au', component: AuspiceComponent}
+  {path: 'au', component: AuspiceComponent},
+  {path: 'ncbi', component: NcbiComponent}
 ];
 
 @NgModule({
