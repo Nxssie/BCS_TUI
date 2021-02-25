@@ -22,4 +22,11 @@ describe('SidenavComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have buttons', () => {
+    fixture = TestBed.createComponent(SidenavComponent);
+    const navElement: HTMLElement = fixture.nativeElement;
+    const navButtons = navElement.querySelector('button.nav-button');
+    expect(navButtons).toBeDefined();
+  })
 });

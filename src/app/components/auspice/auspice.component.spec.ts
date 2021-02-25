@@ -22,4 +22,11 @@ describe('AuspiceComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have iframe with src url "localhost:4000"', () => {
+    fixture = TestBed.createComponent(AuspiceComponent);
+    const ausElement: HTMLElement = fixture.nativeElement;
+    const ausIframe = ausElement.querySelector('iframe[src="http://localhost:4000/"]');
+    expect(ausIframe).toBeDefined();
+  })
 });

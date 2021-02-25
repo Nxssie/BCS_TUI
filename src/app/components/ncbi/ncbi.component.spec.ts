@@ -22,4 +22,11 @@ describe('NcbiComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
+  it('should have an iframe', () => {
+    fixture = TestBed.createComponent(NcbiComponent);
+    const ncbiElement: HTMLElement = fixture.nativeElement;
+    const ncbiIframe = ncbiElement.querySelector('iframe');
+    expect(ncbiIframe).toBeDefined();
+  })
 });

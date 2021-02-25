@@ -22,4 +22,11 @@ describe('HomeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have iframe with src url "itccanarias.org/web/es/"', () => {
+    fixture = TestBed.createComponent(HomeComponent);
+    const homeElement: HTMLElement = fixture.nativeElement;
+    const homeIframe = homeElement.querySelector('iframe[src="https://www.itccanarias.org/web/es/"]');
+    expect(homeIframe).toBeDefined();
+  })
 });
