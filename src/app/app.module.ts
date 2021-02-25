@@ -31,6 +31,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MsaComponent } from './components/msa/msa.component';
 import { AuspiceComponent } from './components/auspice/auspice.component';
 import { NcbiComponent } from './components/ncbi/ncbi.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { NcbiComponent } from './components/ncbi/ncbi.component';
     MsaComponent,
     AuspiceComponent,
     NcbiComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
