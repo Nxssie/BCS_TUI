@@ -37,7 +37,8 @@ Para consultar los requisitos de usuario por favor refiérase a:
 
 ## Interfaz
 ### Diseño inicial
-
+Mockup y concepto básico de la UI:
+* [Adobe XD](https://xd.adobe.com/view/af5a3b17-afc4-42b8-9f3b-323143c2af0f-fa09/)
 
 ## Tecnologías
 
