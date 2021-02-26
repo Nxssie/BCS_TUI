@@ -21,13 +21,13 @@ sequencias genéticas así como árboles filogenéticos.
 ## Requisitos de usuario
 
 Para consultar los requisitos de usuario por favor refiérase a:
-<p>URL</p>
+<p>https://github.com/Nxssie/BCS_TUI/blob/master/src/assets/docs/BCS-Requirements.pdf</p>
 
 ***
 
 ## Casos de uso
 
-<img src="docs/use_case.png"></img>
+<img src="src/assets/docs/bcsuse.png"></img>
 <p>Diagrama de casos de uso para el BCS TUI</p>
 
 ***
