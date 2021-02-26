@@ -1,27 +1,107 @@
-# BcsTui
+## Contenidos
+1. [Información general](#información-general)
+2. [Requisitos de usuario](#requisitos-de-usuario)
+3. [Casos de uso](#casos-de-uso)
+4. [Interfaz](#interfaz)
+5. [Tecnologías](#tecnologías)
+6. [Instalación](#instalación)
+7. [Uso](#uso)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# BCS TUI
+## Información general
 
-## Code scaffolding
+Este proyecto se ha realizado con el fin de proveer al ITC (Instituto Tecnológico de Canarias) con una herramienta que permita manejar múltiples herramientas pasa visualizar
+sequencias genéticas así como árboles filogenéticos.
+<p></p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+***
 
-## Build
+## Requisitos de usuario
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Para consultar los requisitos de usuario por favor refiérase a:
+<p>URL</p>
 
-## Running unit tests
+***
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Casos de uso
 
-## Running end-to-end tests
+<img src="docs/use_case.png"></img>
+<p>Diagrama de casos de uso para el BCS TUI</p>
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+***
 
-## Further help
+## Interfaz
+### Diseño inicial
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Tecnologías
+
+Frontend:
+* [Angular](https://angular.io/): Version 11.1.1
+***
+Herramientas de visualización:
+* [MSA Viewer](https://www.ncbi.nlm.nih.gov/projects/msaviewer/)
+* [IGV](http://software.broadinstitute.org/software/igv/)
+* [NCBI](https://www.ncbi.nlm.nih.gov/tools/sviewer/)
+* [Auspice](https://docs.nextstrain.org/projects/auspice/en/latest/index.html)
+
+## Instalación
+Mediante la línea de comandos instale:
+
+<li>npm
+</li>
+  
+```bash
+npm install npm@latest -g
+```
+
+<li>Angular CLI
+</li>
+
+```bash
+npm install @angular/cli -g
+```
+
+***
+
+Una vez terminado:
+
+<li>Usando la línea de comandos ubíquese en donde quiera clonar el proyecto y ejecute:
+</li>
+
+```bash
+git clone https://github.com/Nxssie/BCS_TUI
+```
+
+<li>Usando la línea de comandos ubíquese en la carpeta raíz del proyecto e instale los módulos necesarios con:
+</li>
+
+```bash
+npm install
+```
+
+## Uso
+
+Para poder usar esta aplicación:
+
+<li>Para iniciar el servidor de Angular, ubíquese, mediante la consola de comandos, en la carpeta raíz del proyecto y ejecute:
+</li>
+
+```bash
+ng serve
+```
+
+<li>Para iniciar el servidor de Auspice, ubíquese, mediante la consola de comandos, en la carpeta raíz del proyecto y ejecute:
+</li>
+
+```bash
+auspice view --datasetDir src/assets/seq-data/set1/
+```
+
+Ya puede comenzar a utilizar esta aplicación accediendo a http://localhost:4200/ en su navegador.
+
+Para utilizar las diferentes herramientas que ofrece la aplicación, seleccione el menú desplegable superior izquierdo y luego la herramienta que desee usar.
+
+En caso de encontrarse con algún problema, por favor consulte el botón de "Help" que se encuentra en dicho menú desplegable.
