@@ -5,7 +5,7 @@
     </mat-toolbar>
     <mat-action-list>
       <button mat-list-item class="nav-button" routerLink="/" (click)="sidenav.close()">
-        <mat-icon class="nav-icon">home </mat-icon> <span>Home</span>
+        <mat-icon class="nav-icon">home </mat-icon>&nbsp;<span>Home</span>
       </button>
       <mat-divider></mat-divider>
       <mat-expansion-panel hideToggle>
@@ -39,6 +39,9 @@
           <span>Auspice</span>
         </button>
       </mat-expansion-panel>
+      <button mat-list-item class="nav-button" (click)="openHelp()">
+        <mat-icon class="nav-icon">help </mat-icon>&nbsp;<span>Help</span>
+      </button>
     </mat-action-list>
   </mat-sidenav>
   <mat-sidenav-content>

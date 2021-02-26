@@ -12,4 +12,8 @@ export class SidenavComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  openHelp() {
+    window.open("assets/docs/Ayuda/ayuda.html");
+}
+
 }
