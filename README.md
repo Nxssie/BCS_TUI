@@ -14,6 +14,9 @@
 
 Este proyecto se ha realizado con el fin de proveer al ITC (Instituto Tecnológico de Canarias) con una herramienta que permita manejar múltiples herramientas pasa visualizar
 sequencias genéticas así como árboles filogenéticos.
+
+Para profundizar más en la información referente a este proyecto y a cómo se ha realizado puede consultar el documento que se encuentra adjunto en:
+https://github.com/Nxssie/BCS_TUI/blob/master/src/assets/docs/Proyecto%202%C2%AA%20Evaluaci%C3%B3n.pdf
 <p></p>
 
 ***
