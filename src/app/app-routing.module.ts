@@ -1,3 +1,4 @@
+import { GridsterComponent } from './components/gridster/gridster.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuspiceComponent } from './components/auspice/auspice.component';
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: 'msa', component: MsaComponent},
   {path: 'igv', component: IGVComponent},
   {path: 'au', component: AuspiceComponent},
-  {path: 'ncbi', component: NcbiComponent}
+  {path: 'ncbi', component: NcbiComponent},
+  {path: 'gridster', component: GridsterComponent}
 ];
 
 @NgModule({

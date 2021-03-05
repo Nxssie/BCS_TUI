@@ -32,6 +32,8 @@ import { MsaComponent } from './components/msa/msa.component';
 import { AuspiceComponent } from './components/auspice/auspice.component';
 import { NcbiComponent } from './components/ncbi/ncbi.component';
 import { HomeComponent } from './components/home/home.component';
+import { GridsterModule } from 'angular-gridster2';
+import { GridsterComponent } from './components/gridster/gridster.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +44,7 @@ import { HomeComponent } from './components/home/home.component';
     AuspiceComponent,
     NcbiComponent,
     HomeComponent,
+    GridsterComponent,
   ],
   imports: [
     BrowserModule,
@@ -64,7 +67,8 @@ import { HomeComponent } from './components/home/home.component';
     MatCardModule,
     MatFormFieldModule,
     MatSlideToggleModule,
-    HttpClientModule
+    HttpClientModule,
+    GridsterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

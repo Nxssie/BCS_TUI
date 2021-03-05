@@ -2,9 +2,12 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MsaComponent } from './msa.component';
 
+declare let msa: any;
+
 describe('MsaComponent', () => {
   let component: MsaComponent;
   let fixture: ComponentFixture<MsaComponent>;
+  let m = new msa();
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -18,10 +21,14 @@ describe('MsaComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-/* 
-  it('should create', () => {
+ 
+  it('should success', () => {
+    expect(component)!.toBeTruthy();
+  }); 
+
+  it('should fail', () => {
     expect(component).toBeTruthy();
-  }); */
+  }); 
 
   /* it('should have div with class "igv-div"', () => {
     fixture = TestBed.createComponent(MsaComponent);
