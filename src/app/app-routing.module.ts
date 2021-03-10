@@ -6,6 +6,7 @@ import { HomeComponent } from './components/home/home.component';
 import { IGVComponent } from './components/igv/igv.component';
 import { MsaComponent } from './components/msa/msa.component';
 import { NcbiComponent } from './components/ncbi/ncbi.component';
+import { NcbiMsaComponent } from './components/ncbi-msa/ncbi-msa.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: 'igv', component: IGVComponent},
   {path: 'au', component: AuspiceComponent},
   {path: 'ncbi', component: NcbiComponent},
+  {path: 'ncbim', component: NcbiMsaComponent},
   {path: 'gridster', component: GridsterComponent}
 ];
 
