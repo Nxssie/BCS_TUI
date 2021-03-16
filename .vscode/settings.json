@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/c03036f4-3a0c-414c-8545-c60aaf1e6ef8/resourceGroups/BCS-TUI/providers/Microsoft.Web/sites/bcs-tui-dev",
+  "appService.deploySubpath": "."
+}

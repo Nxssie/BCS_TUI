@@ -1,0 +1,27 @@
+.options {
+  padding: 10px;
+  display: grid;
+}
+
+.options-header {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.source-code-button {
+  justify-self: end;
+}
+
+.remove-button {
+  position: relative;
+  margin: 1vh 0 2vh 1vw
+}
+
+[draggable] {
+  user-select: none;
+  cursor: pointer;
+}

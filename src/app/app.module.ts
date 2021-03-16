@@ -44,7 +44,7 @@ import { GridsterComponent } from './components/gridster/gridster.component';
     AuspiceComponent,
     NcbiComponent,
     HomeComponent,
-    GridsterComponent,
+    GridsterComponent
   ],
   imports: [
     BrowserModule,

@@ -7,10 +7,15 @@ interface Safe extends GridsterConfig {
   pushDirections: PushDirections;
 }
 
+interface Viewer {
+  value: string;
+  viewValue: string;
+}
+
 @Component({
   selector: 'app-gridster',
   templateUrl: './gridster.component.html',
-  styleUrls: ['./gridster.component.sass'],
+  styleUrls: ['./gridster.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None
 })
@@ -18,6 +23,14 @@ export class GridsterComponent implements OnInit {
 
   options!: Safe;
   dashboard!: Array<GridsterItem>;
+  selectedViewer = "msa";
+
+  viewers: Viewer[] = [
+    {value: 'msa', viewValue: 'MSA'},
+    {value: 'igv', viewValue: 'IGV'},
+    {value: 'ncbi', viewValue: 'NCBI'},
+    {value: 'auspice', viewValue: 'Auspice'}
+  ];
 
   itemChange(item: any, itemComponent: any): void {
     console.info('itemChanged', item, itemComponent);
@@ -84,17 +97,7 @@ export class GridsterComponent implements OnInit {
     };
 
     this.dashboard = [
-      {cols: 2, rows: 1, y: 0, x: 0},
-      {cols: 2, rows: 2, y: 0, x: 2, hasContent: true},
-      {cols: 1, rows: 1, y: 0, x: 4},
-      {cols: 1, rows: 1, y: 2, x: 5},
-      {cols: 1, rows: 1, y: 1, x: 0},
-      {cols: 1, rows: 1, y: 1, x: 0},
-      {cols: 2, rows: 2, y: 3, x: 5, minItemRows: 2, minItemCols: 2, label: 'Min rows & cols = 2'},
-      {cols: 2, rows: 2, y: 2, x: 0, maxItemRows: 2, maxItemCols: 2, label: 'Max rows & cols = 2'},
-      {cols: 2, rows: 1, y: 2, x: 2, dragEnabled: true, resizeEnabled: true, label: 'Drag&Resize Enabled'},
-      {cols: 1, rows: 1, y: 2, x: 4, dragEnabled: false, resizeEnabled: false, label: 'Drag&Resize Disabled'},
-      {cols: 1, rows: 1, y: 2, x: 6}
+      {x: 0, y: 0, cols: 2, rows: 1, msa: true}
     ];
   }
 
@@ -110,8 +113,28 @@ export class GridsterComponent implements OnInit {
     this.dashboard.splice(this.dashboard.indexOf(item), 1);
   }
 
-  addItem(): void {
-    this.dashboard.push({x: 0, y: 0, cols: 1, rows: 1});
+  addItem(viewer: string): void {
+    switch (viewer) {
+      case "igv":
+        this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, igv: true})
+        break;
+      case "msa":
+        this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, msa: true})
+        break;
+      case "ncbi":
+        this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, ncbi: true})
+        break;
+      case "auspice":
+        this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, auspice: true})
+        break;
+      case "jbrowse":
+        this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, jbrowse: true})
+        break;
+    };
+  }
+
+  getSelected() {
+    this.addItem(this.selectedViewer);
   }
 
 }
