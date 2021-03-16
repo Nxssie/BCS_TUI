@@ -1,0 +1,63 @@
+<div class="options">
+  <div class="options-header">
+    <div class="row">
+      <div class="col-sm-6">
+        <mat-form-field appearance="fill">
+          <mat-label>Viewer to add</mat-label>
+          <mat-select [(value)]="selectedViewer">
+            <mat-option *ngFor="let viewer of viewers" [value]="viewer.value">
+              {{viewer.viewValue}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="col-3"></div>
+      <div class="col-3">
+        <button mat-fab (click)="getSelected()" aria-label="Add viewer button">
+          <mat-icon>add</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<gridster [options]="options">
+  <gridster-item [item]="item" *ngFor="let item of dashboard">
+    <div class="button-holder">
+      <div class="gridster-item-content" *ngIf="item.igv">
+        <div class="button-holder">
+          <button mat-icon-button mat-raised-button class="remove-button" (mousedown)="removeItem($event, item)"
+            (touchstart)="removeItem($event, item)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+        <app-igv></app-igv>
+      </div>
+      <div class="gridster-item-content" *ngIf="item.msa">
+          <button mat-icon-button mat-raised-button class="remove-button" (mousedown)="removeItem($event, item)"
+            (touchstart)="removeItem($event, item)">
+            <mat-icon>delete</mat-icon>
+          </button>
+          <app-msa></app-msa>
+      </div>
+      <div class="gridster-item-content" *ngIf="item.ncbi">
+        <div class="button-holder">
+          <button mat-icon-button mat-raised-button class="remove-button" (mousedown)="removeItem($event, item)"
+            (touchstart)="removeItem($event, item)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+        <app-ncbi></app-ncbi>
+      </div>
+      <div class="gridster-item-content" *ngIf="item.auspice">
+        <div class="button-holder">
+          <button mat-icon-button mat-raised-button class="remove-button" (mousedown)="removeItem($event, item)"
+            (touchstart)="removeItem($event, item)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+        <app-auspice></app-auspice>
+      </div>
+    </div>
+  </gridster-item>
+</gridster>

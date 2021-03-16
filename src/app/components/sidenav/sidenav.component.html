@@ -39,8 +39,16 @@
           <span>Auspice</span>
         </button>
       </mat-expansion-panel>
+      <mat-divider></mat-divider>
+      <button mat-list-item class="nav-button" routerLink="/gridster" (click)="sidenav.close()">
+        <span>Gridster</span>
+      </button>
+      <mat-divider></mat-divider>
       <button mat-list-item class="nav-button" (click)="openHelp()">
         <mat-icon class="nav-icon">help </mat-icon>&nbsp;<span>Help</span>
+      </button>
+      <button mat-list-item class="nav-button" (click)="openGithub()">
+        <span>Github</span>
       </button>
     </mat-action-list>
   </mat-sidenav>
