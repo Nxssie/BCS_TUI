@@ -49,6 +49,15 @@
         </div>
         <app-ncbi></app-ncbi>
       </div>
+      <div class="gridster-item-content" *ngIf="item.ncbimsa">
+        <div class="button-holder">
+          <button mat-icon-button mat-raised-button class="remove-button" (mousedown)="removeItem($event, item)"
+            (touchstart)="removeItem($event, item)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+        <app-ncbi-msa></app-ncbi-msa>
+      </div>
       <div class="gridster-item-content" *ngIf="item.auspice">
         <div class="button-holder">
           <button mat-icon-button mat-raised-button class="remove-button" (mousedown)="removeItem($event, item)"

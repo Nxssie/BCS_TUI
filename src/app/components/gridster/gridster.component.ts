@@ -29,6 +29,7 @@ export class GridsterComponent implements OnInit {
     {value: 'msa', viewValue: 'MSA'},
     {value: 'igv', viewValue: 'IGV'},
     {value: 'ncbi', viewValue: 'NCBI'},
+    {value: 'ncbimsa', viewValue: 'NCBI-MSA'},
     {value: 'auspice', viewValue: 'Auspice'}
   ];
 
@@ -42,7 +43,9 @@ export class GridsterComponent implements OnInit {
 
   ngOnInit(): void {
     this.options = {
-      gridType: GridType.Fit,
+      gridType: GridType.Fixed,
+      fixedColWidth: 105,
+      fixedRowHeight: 105,
       compactType: CompactType.None,
       margin: 10,
       outerMargin: true,
@@ -53,19 +56,17 @@ export class GridsterComponent implements OnInit {
       useTransformPositioning: true,
       mobileBreakpoint: 640,
       minCols: 1,
-      maxCols: 100,
+      maxCols: 1000,
       minRows: 1,
-      maxRows: 100,
-      maxItemCols: 100,
+      maxRows: 1000,
+      maxItemCols: 1000,
       minItemCols: 1,
-      maxItemRows: 100,
+      maxItemRows: 1000,
       minItemRows: 1,
       maxItemArea: 2500,
       minItemArea: 1,
       defaultItemCols: 1,
       defaultItemRows: 1,
-      fixedColWidth: 105,
-      fixedRowHeight: 105,
       keepFixedHeightInMobile: false,
       keepFixedWidthInMobile: false,
       scrollSensitivity: 10,
@@ -93,11 +94,11 @@ export class GridsterComponent implements OnInit {
       displayGrid: DisplayGrid.Always,
       disableWindowResize: false,
       disableWarnings: false,
-      scrollToNewItems: false
+      scrollToNewItems: true
     };
 
     this.dashboard = [
-      {x: 0, y: 0, cols: 2, rows: 1, msa: true}
+      {x: 0, y: 0, cols: 11, rows: 4, msa: true},
     ];
   }
 
@@ -116,16 +117,19 @@ export class GridsterComponent implements OnInit {
   addItem(viewer: string): void {
     switch (viewer) {
       case "igv":
-        this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, igv: true})
+        this.dashboard.push({x: 0, y: 0, cols: 11, rows: 5.5, igv: true})
         break;
       case "msa":
-        this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, msa: true})
+        this.dashboard.push({x: 0, y: 0, cols: 11, rows: 4, msa: true})
         break;
       case "ncbi":
-        this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, ncbi: true})
+        this.dashboard.push({x: 0, y: 0, cols: 11, rows: 7.5, ncbi: true})
+        break;
+      case "ncbimsa":
+        this.dashboard.push({x: 0, y: 0, cols: 11, rows: 3.5, ncbimsa: true})
         break;
       case "auspice":
-        this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, auspice: true})
+        this.dashboard.push({x: 0, y: 0, cols: 11, rows: 6, auspice: true})
         break;
       case "jbrowse":
         this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, jbrowse: true})
