@@ -30,6 +30,9 @@
             (touchstart)="removeItem($event, item)">
             <mat-icon>delete</mat-icon>
           </button>
+          <button mat-icon-button mat-raised-button class="drag-handler">
+            <mat-icon>open_with</mat-icon>
+          </button>
         </div>
         <app-igv></app-igv>
       </div>
@@ -38,6 +41,9 @@
             (touchstart)="removeItem($event, item)">
             <mat-icon>delete</mat-icon>
           </button>
+          <button mat-icon-button mat-raised-button class="drag-handler">
+            <mat-icon>open_with</mat-icon>
+          </button>
           <app-msa></app-msa>
       </div>
       <div class="gridster-item-content" *ngIf="item.ncbi">
@@ -45,6 +51,9 @@
           <button mat-icon-button mat-raised-button class="remove-button" (mousedown)="removeItem($event, item)"
             (touchstart)="removeItem($event, item)">
             <mat-icon>delete</mat-icon>
+          </button>
+          <button mat-icon-button mat-raised-button class="drag-handler">
+            <mat-icon>open_with</mat-icon>
           </button>
         </div>
         <app-ncbi></app-ncbi>
@@ -55,6 +64,9 @@
             (touchstart)="removeItem($event, item)">
             <mat-icon>delete</mat-icon>
           </button>
+          <button mat-icon-button mat-raised-button class="drag-handler">
+            <mat-icon>open_with</mat-icon>
+          </button>
         </div>
         <app-ncbi-msa></app-ncbi-msa>
       </div>
@@ -63,6 +75,9 @@
           <button mat-icon-button mat-raised-button class="remove-button" (mousedown)="removeItem($event, item)"
             (touchstart)="removeItem($event, item)">
             <mat-icon>delete</mat-icon>
+          </button>
+          <button mat-icon-button mat-raised-button class="drag-handler">
+            <mat-icon>open_with</mat-icon>
           </button>
         </div>
         <app-auspice></app-auspice>

@@ -80,7 +80,12 @@ export class GridsterComponent implements OnInit {
       emptyCellDragMaxRows: 50,
       ignoreMarginInRow: false,
       draggable: {
+        delayStart: 0,
         enabled: true,
+        ignoreContentClass: 'gridster-item-content',
+        ignoreContent: true,
+        dragHandleClass: 'drag-handler',
+        dropOverItems: false
       },
       resizable: {
         enabled: true,
@@ -98,7 +103,7 @@ export class GridsterComponent implements OnInit {
     };
 
     this.dashboard = [
-      {x: 0, y: 0, cols: 11, rows: 4, msa: true},
+      //{x: 0, y: 0, cols: 11, rows: 4, msa: true},
     ];
   }
 
