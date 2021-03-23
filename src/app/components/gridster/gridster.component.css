@@ -21,6 +21,10 @@
   margin: 1vh 0 2vh 1vw
 }
 
+.drag-handler {
+  margin: 1vh 0 2vh 1vw
+}
+
 [draggable] {
   user-select: none;
   cursor: pointer;

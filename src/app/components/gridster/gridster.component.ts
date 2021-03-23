@@ -68,7 +68,7 @@ export class GridsterComponent implements OnInit {
       minItemArea: 1,
       defaultItemCols: 1,
       defaultItemRows: 1,
-      keepFixedHeightInMobile: false,
+      keepFixedHeightInMobile: true,
       keepFixedWidthInMobile: false,
       scrollSensitivity: 10,
       scrollSpeed: 20,
