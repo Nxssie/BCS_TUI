@@ -7,6 +7,7 @@ import { IGVComponent } from './components/igv/igv.component';
 import { MsaComponent } from './components/msa/msa.component';
 import { NcbiComponent } from './components/ncbi/ncbi.component';
 import { NcbiMsaComponent } from './components/ncbi-msa/ncbi-msa.component';
+import { ItolComponent } from './components/itol/itol.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'au', component: AuspiceComponent},
   {path: 'ncbi', component: NcbiComponent},
   {path: 'ncbimsa', component: NcbiMsaComponent},
+  {path: 'itol', component: ItolComponent},
   {path: 'gridster', component: GridsterComponent}
 ];
 

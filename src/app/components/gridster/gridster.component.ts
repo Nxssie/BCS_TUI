@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
-import {CompactType, DisplayGrid, Draggable, GridsterConfig, GridsterItem, GridType, PushDirections, Resizable} from 'angular-gridster2';
+import { CompactType, DisplayGrid, Draggable, GridsterConfig, GridsterItem, GridType, PushDirections, Resizable } from 'angular-gridster2';
 
 interface Safe extends GridsterConfig {
   draggable: Draggable;
@@ -26,11 +26,12 @@ export class GridsterComponent implements OnInit {
   selectedViewer = "msa";
 
   viewers: Viewer[] = [
-    {value: 'msa', viewValue: 'MSA'},
-    {value: 'igv', viewValue: 'IGV'},
-    {value: 'ncbi', viewValue: 'NCBI'},
-    {value: 'ncbimsa', viewValue: 'NCBI-MSA'},
-    {value: 'auspice', viewValue: 'Auspice'}
+    { value: 'msa', viewValue: 'MSA' },
+    { value: 'igv', viewValue: 'IGV' },
+    { value: 'ncbi', viewValue: 'NCBI' },
+    { value: 'ncbimsa', viewValue: 'NCBI-MSA' },
+    { value: 'auspice', viewValue: 'Auspice' },
+    { value: 'itol', viewValue: 'iTOL' }
   ];
 
   itemChange(item: any, itemComponent: any): void {
@@ -94,7 +95,7 @@ export class GridsterComponent implements OnInit {
       pushItems: true,
       disablePushOnDrag: false,
       disablePushOnResize: false,
-      pushDirections: {north: true, east: true, south: true, west: true},
+      pushDirections: { north: true, east: true, south: true, west: true },
       pushResizeItems: false,
       displayGrid: DisplayGrid.Always,
       disableWindowResize: false,
@@ -122,22 +123,25 @@ export class GridsterComponent implements OnInit {
   addItem(viewer: string): void {
     switch (viewer) {
       case "igv":
-        this.dashboard.push({x: 0, y: 0, cols: 11, rows: 5.5, igv: true})
+        this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 5.5, igv: true })
         break;
       case "msa":
-        this.dashboard.push({x: 0, y: 0, cols: 11, rows: 4, msa: true})
+        this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 4, msa: true })
         break;
       case "ncbi":
-        this.dashboard.push({x: 0, y: 0, cols: 11, rows: 7.5, ncbi: true})
+        this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 7.5, ncbi: true })
         break;
       case "ncbimsa":
-        this.dashboard.push({x: 0, y: 0, cols: 11, rows: 3.5, ncbimsa: true})
+        this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 3.5, ncbimsa: true })
         break;
       case "auspice":
-        this.dashboard.push({x: 0, y: 0, cols: 11, rows: 6, auspice: true})
+        this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 6, auspice: true })
+        break;
+      case "itol":
+        this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 5, itol: true })
         break;
       case "jbrowse":
-        this.dashboard.push({x: 0, y: 0, cols: 2, rows: 1, jbrowse: true})
+        this.dashboard.push({ x: 0, y: 0, cols: 2, rows: 1, jbrowse: true })
         break;
     };
   }

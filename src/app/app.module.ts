@@ -35,6 +35,7 @@ import { HomeComponent } from './components/home/home.component';
 import { GridsterModule } from 'angular-gridster2';
 import { GridsterComponent } from './components/gridster/gridster.component';
 import { NcbiMsaComponent } from './components/ncbi-msa/ncbi-msa.component';
+import { ItolComponent } from './components/itol/itol.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { NcbiMsaComponent } from './components/ncbi-msa/ncbi-msa.component';
     NcbiComponent,
     HomeComponent,
     GridsterComponent,
-    NcbiMsaComponent
+    NcbiMsaComponent,
+    ItolComponent
   ],
   imports: [
     BrowserModule,
