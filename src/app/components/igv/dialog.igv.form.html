@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>IGV details</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>URL</mat-label>
+    <input matInput [(ngModel)]="data.stringURL">
+  </mat-form-field>
+  
+  <mat-form-field>
+    <mat-label>Label</mat-label>
+    <input matInput [(ngModel)]="data.label">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button (click)="onSubmit()" ([mat-dialog-close])="data.stringURL" cdkFocusInitial>Confirm</button>
+</div>
