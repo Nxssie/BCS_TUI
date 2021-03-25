@@ -31,7 +31,8 @@ export class GridsterComponent implements OnInit {
     { value: 'ncbi', viewValue: 'NCBI' },
     { value: 'ncbimsa', viewValue: 'NCBI-MSA' },
     { value: 'auspice', viewValue: 'Auspice' },
-    { value: 'itol', viewValue: 'iTOL' }
+    { value: 'itol', viewValue: 'iTOL' },
+    { value: 'jbrowse', viewValue: 'JBrowse' }
   ];
 
   itemChange(item: any, itemComponent: any): void {
@@ -141,7 +142,7 @@ export class GridsterComponent implements OnInit {
         this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 5, itol: true })
         break;
       case "jbrowse":
-        this.dashboard.push({ x: 0, y: 0, cols: 2, rows: 1, jbrowse: true })
+        this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 5, jbrowse: true })
         break;
     };
   }
