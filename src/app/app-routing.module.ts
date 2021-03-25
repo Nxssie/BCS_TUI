@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuspiceComponent } from './components/auspice/auspice.component';
 import { HomeComponent } from './components/home/home.component';
-import { IGVComponent } from './components/igv/igv.component';
+import { IGVComponent, DialogIGVForm } from './components/igv/igv.component';
 import { MsaComponent } from './components/msa/msa.component';
 import { NcbiComponent } from './components/ncbi/ncbi.component';
 import { NcbiMsaComponent } from './components/ncbi-msa/ncbi-msa.component';
