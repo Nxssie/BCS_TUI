@@ -104,6 +104,13 @@ ng serve
 auspice view --datasetDir src/assets/seq-data/set1/
 ```
 
+<li>Para iniciar el servidor de JBrowse, ubíquese, mediante la consola de comandos, en la carpeta jbrowse2 y ejecute:
+</li>
+
+```bash
+npx serve .
+```
+
 Ya puede comenzar a utilizar esta aplicación accediendo a http://localhost:4200/ en su navegador.
 
 Para utilizar las diferentes herramientas que ofrece la aplicación, seleccione el menú desplegable superior izquierdo y luego la herramienta que desee usar.
