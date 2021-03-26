@@ -7,6 +7,17 @@ export interface DialogData {
   label: string;
 }
 
+export interface Genome {
+  id: string;
+  name: string;
+  url: string;
+  indexUrl: string;
+}
+
+export interface Track {
+
+}
+
 @Component({
   selector: 'app-igv',
   templateUrl: './igv.component.html',
@@ -41,7 +52,7 @@ export class IGVComponent implements OnInit {
     });
   }
 
-  loadGenome = () => {
+  public static loadGenome = (genome: Genome, track: Track[]) => {
     igv.browser.loadGenome(
       {
           "id": "hg38",
@@ -82,7 +93,7 @@ export class IGVComponent implements OnInit {
 
   openDialog(): void {
     const dialogRef = this.dialog.open(DialogIGVForm, {
-      width: '250px',
+      width: '600px',
       data: {stringURL: this.stringURL}
     });
 
@@ -96,8 +107,11 @@ export class IGVComponent implements OnInit {
 @Component({
   selector: 'dialog-igv-form',
   templateUrl: './dialog.igv.form.html',
+  styleUrls: ['./dialog.igv.form.css'],
 })
 export class DialogIGVForm {
+
+  panelOpenState = false;
 
   constructor(
     public dialogRef: MatDialogRef<DialogIGVForm>,
@@ -107,7 +121,16 @@ export class DialogIGVForm {
     this.dialogRef.close();
   }
 
-  onSubmit(): void {
+  onSubmitAddTrack(): void {
+    if(!this.data.stringURL) {
+      alert("Please fill empty fields")
+    } else {
+      IGVComponent.loadTrack(this.data.stringURL, this.data.label);
+      this.dialogRef.close();
+    }
+  }
+
+  onSubmitAddGenome(): void {
     if(!this.data.stringURL) {
       alert("Please fill empty fields")
     } else {
