@@ -1,5 +1,73 @@
 <h1 mat-dialog-title>IGV details</h1>
+<button mat-icon-button color="primary" (click)="onNoClick()" id="close-button">
+  <mat-icon>close</mat-icon>
+</button>
 <div mat-dialog-content>
+  <mat-accordion>
+    <mat-expansion-panel
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title> Add genome </mat-panel-title>
+        <mat-panel-description> Manually add a genome </mat-panel-description>
+      </mat-expansion-panel-header>
+      <mat-form-field class="full-width-field">
+        <mat-label>ID</mat-label>
+        <input matInput [(ngModel)]="genomeData.id" />
+      </mat-form-field>
+      <br/>
+      <mat-form-field class="full-width-field">
+        <mat-label>Name</mat-label>
+        <input matInput [(ngModel)]="genomeData.name" />
+      </mat-form-field>
+      <br/>
+      <mat-form-field class="full-width-field">
+        <mat-label>URL</mat-label>
+        <input matInput [(ngModel)]="genomeData.url" />
+      </mat-form-field>
+      <br/>
+      <mat-form-field class="full-width-field">
+        <mat-label>Index URL</mat-label>
+        <input matInput [(ngModel)]="genomeData.indexUrl" />
+      </mat-form-field>
+      <br/>
+      <mat-form-field class="full-width-field">
+        <mat-label>Cytoband URL</mat-label>
+        <input matInput [(ngModel)]="genomeData.cytobandUrl" />
+      </mat-form-field>
+      <br/> <br/>
+      <h3>Track</h3>
+      <mat-form-field class="full-width-field">
+        <mat-label>Name</mat-label>
+        <input matInput [(ngModel)]="trackData.name" />
+      </mat-form-field>
+      <br/>
+      <mat-form-field class="full-width-field">
+        <mat-label>URL</mat-label>
+        <input matInput [(ngModel)]="trackData.url" />
+      </mat-form-field>
+      <br/>
+      <mat-form-field class="full-width-field">
+        <mat-label>Order</mat-label>
+        <input matInput [(ngModel)]="trackData.order" />
+      </mat-form-field>
+      <br/>
+      <mat-form-field floatLabel="always">
+        <mat-slide-toggle [(ngModel)]="trackData.indexed">Indexed</mat-slide-toggle>
+        <textarea matInput style="display:none;"></textarea>
+      </mat-form-field>
+      <br/>
+      <button mat-button (click)="onNoClick()">Cancel</button>
+  <button
+    mat-button
+    (click)="onSubmitAddGenome()"
+    cdkFocusInitial
+  >
+    Confirm
+  </button>
+    </mat-expansion-panel>
+  </mat-accordion>
   <mat-accordion>
     <mat-expansion-panel
       (opened)="panelOpenState = true"
@@ -30,6 +98,7 @@
   </button>
     </mat-expansion-panel>
   </mat-accordion>
+  
 </div>
 <div mat-dialog-actions>
 </div>

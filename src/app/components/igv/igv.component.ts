@@ -12,10 +12,14 @@ export interface Genome {
   name: string;
   url: string;
   indexUrl: string;
+  cytobandUrl: string;
 }
 
 export interface Track {
-
+  name: string;
+  url: string;
+  order: number;
+  indexed: boolean;
 }
 
 @Component({
@@ -52,21 +56,21 @@ export class IGVComponent implements OnInit {
     });
   }
 
-  public static loadGenome = (genome: Genome, track: Track[]) => {
+  public static loadGenome = (genome: Genome, track: Track) => {
     igv.browser.loadGenome(
       {
-          "id": "hg38",
-          "name": "Human (GRCh38/hg38)",
-          "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg38/hg38.fa",
-          "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg38/hg38.fa.fai",
-          "cytobandURL": "https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg38/cytoBandIdeo.txt",
+          "id": genome.id,
+          "name": genome.name,
+          "fastaURL": genome.url,
+          "indexURL": genome.indexUrl,
+          "cytobandURL": genome.cytobandUrl,
           "tracks": [
             {
-              "name": "Refseq Genes",
-              "url": "https://s3.amazonaws.com/igv.org.genomes/hg38/refGene.txt.gz",
-              "order": 1000000,
-              "indexed": false
-            }
+              "name": track.name,
+              "url": track.url,
+              "order": track.order,
+              "indexed": track.indexed
+            },
           ]
         }
     ); 
@@ -115,7 +119,9 @@ export class DialogIGVForm {
 
   constructor(
     public dialogRef: MatDialogRef<DialogIGVForm>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+    @Inject(MAT_DIALOG_DATA) public data: DialogData,
+    @Inject(MAT_DIALOG_DATA) public genomeData: Genome,
+    @Inject(MAT_DIALOG_DATA) public trackData: Track) {}
 
   onNoClick(): void {
     this.dialogRef.close();
@@ -134,7 +140,7 @@ export class DialogIGVForm {
     if(!this.data.stringURL) {
       alert("Please fill empty fields")
     } else {
-      IGVComponent.loadTrack(this.data.stringURL, this.data.label);
+      IGVComponent.loadGenome(this.genomeData, this.trackData);
       this.dialogRef.close();
     }
   }
