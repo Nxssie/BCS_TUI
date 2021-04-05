@@ -3,12 +3,11 @@ import { Component, OnInit } from '@angular/core';
 declare let msa: any;
 
 @Component({
-  selector: 'app-msa',
-  templateUrl: './msa.component.html',
-  styleUrls: ['./msa.component.css'],
+  selector: 'app-msagrid',
+  templateUrl: './msagrid.component.html',
+  styleUrls: ['./msagrid.component.sass']
 })
-
-export class MsaComponent implements OnInit {
+export class MsagridComponent implements OnInit {
 
   constructor() { }
 
@@ -125,4 +124,5 @@ export class MsaComponent implements OnInit {
       m.render();
     }
   }
+
 }

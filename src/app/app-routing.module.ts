@@ -9,11 +9,15 @@ import { NcbiComponent } from './components/ncbi/ncbi.component';
 import { NcbiMsaComponent } from './components/ncbi-msa/ncbi-msa.component';
 import { ItolComponent } from './components/itol/itol.component';
 import { JbrowseComponent } from './components/jbrowse/jbrowse.component';
+import { MsagridComponent } from './components/msagrid/msagrid.component';
+import { IgvgridComponent } from './components/igvgrid/igvgrid.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'msa', component: MsaComponent},
+  {path: 'msag', component: MsagridComponent},
   {path: 'igv', component: IGVComponent},
+  {path: 'igvg', component: IgvgridComponent},
   {path: 'au', component: AuspiceComponent},
   {path: 'ncbi', component: NcbiComponent},
   {path: 'ncbimsa', component: NcbiMsaComponent},
