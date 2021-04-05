@@ -22,6 +22,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox'
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatFileUploadModule } from 'angular-material-fileupload';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -78,7 +79,8 @@ import { JbrowseComponent } from './components/jbrowse/jbrowse.component';
     HttpClientModule,
     GridsterModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatFileUploadModule
   ],
   providers: [],
   bootstrap: [AppComponent]

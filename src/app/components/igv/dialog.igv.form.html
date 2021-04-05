@@ -1,14 +1,11 @@
-<button class="close" mat-icon-button color="primary" (click)="onNoClick()">
+<button class="closeButton" mat-mini-fab color="primary" (click)="onNoClick()">
   <mat-icon>close</mat-icon>
 </button>
 <h1 mat-dialog-title>IGV details</h1>
 <div mat-dialog-content>
   <!-- Add genome -->
   <mat-accordion>
-    <mat-expansion-panel
-      (opened)="panelOpenState = true"
-      (closed)="panelOpenState = false"
-    >
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
       <mat-expansion-panel-header>
         <mat-panel-title> Add genome </mat-panel-title>
         <mat-panel-description> Manually add a genome </mat-panel-description>
@@ -17,66 +14,56 @@
         <mat-label>ID</mat-label>
         <input matInput [(ngModel)]="genomeData.id" />
       </mat-form-field>
-      <br/>
+      <br />
       <mat-form-field class="full-width-field">
         <mat-label>Name</mat-label>
         <input matInput [(ngModel)]="genomeData.name" />
       </mat-form-field>
-      <br/>
+      <br />
       <mat-form-field class="full-width-field">
         <mat-label>URL</mat-label>
         <input matInput [(ngModel)]="genomeData.url" />
       </mat-form-field>
-      <br/>
+      <br />
       <mat-form-field class="full-width-field">
         <mat-label>Index URL</mat-label>
         <input matInput [(ngModel)]="genomeData.indexUrl" />
       </mat-form-field>
-      <br/>
+      <br />
       <mat-form-field class="full-width-field">
         <mat-label>Cytoband URL</mat-label>
         <input matInput [(ngModel)]="genomeData.cytobandUrl" />
       </mat-form-field>
-      <br/> <br/>
+      <br /> <br />
       <h3>Track</h3>
       <mat-form-field class="full-width-field">
         <mat-label>Name</mat-label>
-        <input matInput [(ngModel)]="trackData.name" />
+        <input matInput [(ngModel)]="trackData.trackName" />
       </mat-form-field>
-      <br/>
+      <br />
       <mat-form-field class="full-width-field">
         <mat-label>URL</mat-label>
-        <input matInput [(ngModel)]="trackData.url" />
+        <input matInput [(ngModel)]="trackData.trackUrl" />
       </mat-form-field>
-      <br/>
+      <br />
       <mat-form-field class="full-width-field">
         <mat-label>Order</mat-label>
-        <input matInput [(ngModel)]="trackData.order" />
+        <input matInput [(ngModel)]="trackData.trackOrder" />
       </mat-form-field>
       <br/>
-      <mat-form-field floatLabel="always">
-        <mat-slide-toggle [(ngModel)]="trackData.indexed">Indexed</mat-slide-toggle>
-        <textarea matInput style="display:none;"></textarea>
-      </mat-form-field>
+      <mat-slide-toggle [(ngModel)]="trackData.trackIndexed">Indexed</mat-slide-toggle>
       <br/>
-      <button mat-button (click)="onNoClick()">Cancel</button>
-  <button
-    mat-button
-    (click)="onSubmitAddGenome()"
-    cdkFocusInitial
-  >
-    Confirm
-  </button>
+      <div class="button-container">
+        <button mat-raised-button color="primary" (click)="onSubmitAddGenome()" cdkFocusInitial>Confirm</button>
+        <button mat-raised-button color="secondary" class="cancel" (click)="onNoClick()">Cancel</button>
+      </div>
     </mat-expansion-panel>
   </mat-accordion>
   <!-- !Add genome -->
 
   <!-- Add track -->
   <mat-accordion>
-    <mat-expansion-panel
-      (opened)="panelOpenState = true"
-      (closed)="panelOpenState = false"
-    >
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
       <mat-expansion-panel-header>
         <mat-panel-title> Add track </mat-panel-title>
         <mat-panel-description> URL Input to add a track </mat-panel-description>
@@ -85,27 +72,33 @@
         <mat-label>URL</mat-label>
         <input matInput [(ngModel)]="data.stringURL" />
       </mat-form-field>
-      <br/>
+      <br />
       <mat-form-field class="full-width-field">
         <mat-label>Label</mat-label>
         <input matInput [(ngModel)]="data.label" />
       </mat-form-field>
 
-      <button mat-button (click)="onNoClick()">Cancel</button>
-  <button
-    mat-button
-    (click)="onSubmitAddTrack()"
-    ([mat-dialog-close])="data.stringURL"
-    cdkFocusInitial
-  >
-    Confirm
-  </button>
+      <div class="button-container">
+        <button mat-raised-button color="primary" (click)="onSubmitAddGenome()" cdkFocusInitial>Confirm</button>
+        <button mat-raised-button class="cancel" color="secondary" (click)="onNoClick()">Cancel</button>
+      </div>
     </mat-expansion-panel>
   </mat-accordion>
   <!-- !Add track -->
 
-  
-  
+  <!-- File input -->
+  <!--
+  <br />
+  <label for="singleFile">Upload a file </label>
+  <input id="singleFile" name="singleFile" type="file" [fileUploadInputFor]="fileUploadQueue" />
+  <br>
+
+  <mat-file-upload-queue #fileUploadQueue [fileAlias]="'file'" [httpUrl]="''">
+    <!- - ABOVE HERE GOES BACKEND URL - ->
+
+    <mat-file-upload [file]="file" [id]="i" *ngFor="let file of fileUploadQueue.files; let i = index"></mat-file-upload>
+  </mat-file-upload-queue> -->
+  <!-- !File input -->
 </div>
 <div mat-dialog-actions>
 </div>

@@ -16,10 +16,10 @@ export interface Genome {
 }
 
 export interface Track {
-  name: string;
-  url: string;
-  order: number;
-  indexed: boolean;
+  trackName: string;
+  trackUrl: string;
+  trackOrder: number;
+  trackIndexed: boolean;
 }
 
 @Component({
@@ -66,10 +66,10 @@ export class IGVComponent implements OnInit {
           "cytobandURL": genome.cytobandUrl,
           "tracks": [
             {
-              "name": track.name,
-              "url": track.url,
-              "order": track.order,
-              "indexed": track.indexed
+              "name": track.trackName,
+              "url": track.trackUrl,
+              "order": track.trackOrder,
+              "indexed": track.trackIndexed
             },
           ]
         }
@@ -117,6 +117,7 @@ export class IGVComponent implements OnInit {
 export class DialogIGVForm {
 
   panelOpenState = false;
+  fileUploadQueue = document.getElementById("fileUploadQueue");
 
   constructor(
     public dialogRef: MatDialogRef<DialogIGVForm>,
@@ -138,11 +139,15 @@ export class DialogIGVForm {
   }
 
   onSubmitAddGenome(): void {
-    if(!this.data.stringURL) {
+    if(!this.genomeData.url) {
       alert("Please fill empty fields")
     } else {
       IGVComponent.loadGenome(this.genomeData, this.trackData);
       this.dialogRef.close();
     }
+  }
+
+  onSubmitFile(): void {
+    //This method receives an input file to inject it directly to IGV
   }
 }
