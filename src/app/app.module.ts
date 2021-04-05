@@ -38,6 +38,8 @@ import { GridsterComponent } from './components/gridster/gridster.component';
 import { NcbiMsaComponent } from './components/ncbi-msa/ncbi-msa.component';
 import { ItolComponent } from './components/itol/itol.component';
 import { JbrowseComponent } from './components/jbrowse/jbrowse.component';
+import { MsagridComponent } from './components/msagrid/msagrid.component';
+import { IgvgridComponent } from './components/igvgrid/igvgrid.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { JbrowseComponent } from './components/jbrowse/jbrowse.component';
     GridsterComponent,
     NcbiMsaComponent,
     ItolComponent,
-    JbrowseComponent
+    JbrowseComponent,
+    MsagridComponent,
+    IgvgridComponent
   ],
   imports: [
     BrowserModule,
