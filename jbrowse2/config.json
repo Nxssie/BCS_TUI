@@ -1,0 +1,26 @@
+{
+  "assemblies": [
+    {
+      "name": "volvox",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "volvox-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "http://jbrowse.org.s3.amazonaws.com/genomes/volvox/volvox.fa"
+          },
+          "faiLocation": {
+            "uri": "http://jbrowse.org.s3.amazonaws.com/genomes/volvox/volvox.fa.fai"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": []
+}
