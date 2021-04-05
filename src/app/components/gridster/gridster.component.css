@@ -1,6 +1,7 @@
 .options {
   padding: 10px;
   display: grid;
+  overflow-y: hidden;
 }
 
 .options-header {
@@ -21,30 +22,31 @@
   margin: 1vh 0 2vh 1vw
 }
 
+.drag-handler {
+  margin: 1vh 0 2vh 1vw
+}
+
 [draggable] {
   user-select: none;
   cursor: pointer;
 }
 
 /* Scrollbar */
-/* width */
-::-webkit-scrollbar {
+
+/*::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1; 
 }
  
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #3F51B5; 
   border-radius: 6px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #2D3A82; 
-}
+}*/

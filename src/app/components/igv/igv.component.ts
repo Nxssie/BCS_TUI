@@ -1,5 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import * as igv from 'node_modules/igv/dist/igv.min.js';
+
+export interface DialogData {
+  stringURL: string;
+  label: string;
+}
+
+export interface Genome {
+  id: string;
+  name: string;
+  url: string;
+  indexUrl: string;
+  cytobandUrl: string;
+}
+
+export interface Track {
+  name: string;
+  url: string;
+  order: number;
+  indexed: boolean;
+}
 
 @Component({
   selector: 'app-igv',
@@ -7,7 +28,10 @@ import * as igv from 'node_modules/igv/dist/igv.min.js';
   styleUrls: ['./igv.component.css'],
 })
 export class IGVComponent implements OnInit {
-  constructor() {}
+
+  stringURL!: string;
+
+  constructor(public dialog: MatDialog) {}
 
   ngOnInit(): void {
     var igvDiv = document.getElementById('igv-div');
@@ -26,8 +50,98 @@ export class IGVComponent implements OnInit {
       ],
     };
 
-    igv.createBrowser(igvDiv, options).then(function () {
+    igv.createBrowser(igvDiv, options).then(function (browser: any) {
+      igv.browser = browser;
       console.log('Created IGV browser');
     });
+  }
+
+  public static loadGenome = (genome: Genome, track: Track) => {
+    igv.browser.loadGenome(
+      {
+          "id": genome.id,
+          "name": genome.name,
+          "fastaURL": genome.url,
+          "indexURL": genome.indexUrl,
+          "cytobandURL": genome.cytobandUrl,
+          "tracks": [
+            {
+              "name": track.name,
+              "url": track.url,
+              "order": track.order,
+              "indexed": track.indexed
+            },
+          ]
+        }
+    ); 
+  }
+  
+  public static loadTrack = (url: string, label: string) => {
+    igv.browser.loadTrack({
+      url: url,
+      label: label
+        })
+    .then(function (newTrack: any) {
+      alert("Track loaded: " + newTrack.name);
+    })
+    .catch(function (error: string)  {
+       // Handle error
+    })
+  }
+
+  removeTrackByName = () => {
+    igv.browser.removeTrackByName('HG02450').then((track: any) => {
+      alert('Track removed: ' + track.name);
+    })
+  }
+
+  openDialog(): void {
+    const dialogRef = this.dialog.open(DialogIGVForm, {
+      width: '600px',
+      data: {stringURL: this.stringURL}
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      this.stringURL = result;
+    });
+  }
+}
+
+@Component({
+  selector: 'dialog-igv-form',
+  templateUrl: './dialog.igv.form.html',
+  styleUrls: ['./dialog.igv.form.css'],
+})
+export class DialogIGVForm {
+
+  panelOpenState = false;
+
+  constructor(
+    public dialogRef: MatDialogRef<DialogIGVForm>,
+    @Inject(MAT_DIALOG_DATA) public data: DialogData,
+    @Inject(MAT_DIALOG_DATA) public genomeData: Genome,
+    @Inject(MAT_DIALOG_DATA) public trackData: Track) {}
+
+  onNoClick(): void {
+    this.dialogRef.close();
+  }
+
+  onSubmitAddTrack(): void {
+    if(!this.data.stringURL) {
+      alert("Please fill empty fields")
+    } else {
+      IGVComponent.loadTrack(this.data.stringURL, this.data.label);
+      this.dialogRef.close();
+    }
+  }
+
+  onSubmitAddGenome(): void {
+    if(!this.data.stringURL) {
+      alert("Please fill empty fields")
+    } else {
+      IGVComponent.loadGenome(this.genomeData, this.trackData);
+      this.dialogRef.close();
+    }
   }
 }

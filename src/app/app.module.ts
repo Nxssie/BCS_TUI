@@ -7,7 +7,8 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
-import {MatExpansionModule} from '@angular/material/expansion';
+import { FormsModule } from '@angular/forms';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
@@ -25,7 +26,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-import { IGVComponent } from './components/igv/igv.component';
+import { IGVComponent, DialogIGVForm } from './components/igv/igv.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MsaComponent } from './components/msa/msa.component';
@@ -43,6 +44,7 @@ import { JbrowseComponent } from './components/jbrowse/jbrowse.component';
     AppComponent,
     SidenavComponent,
     IGVComponent,
+    DialogIGVForm,
     MsaComponent,
     AuspiceComponent,
     NcbiComponent,
@@ -74,7 +76,9 @@ import { JbrowseComponent } from './components/jbrowse/jbrowse.component';
     MatFormFieldModule,
     MatSlideToggleModule,
     HttpClientModule,
-    GridsterModule
+    GridsterModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
