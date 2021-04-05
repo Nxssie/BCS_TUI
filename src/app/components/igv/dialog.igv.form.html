@@ -1,8 +1,9 @@
-<h1 mat-dialog-title>IGV details</h1>
-<button mat-icon-button color="primary" (click)="onNoClick()" id="close-button">
+<button class="close" mat-icon-button color="primary" (click)="onNoClick()">
   <mat-icon>close</mat-icon>
 </button>
+<h1 mat-dialog-title>IGV details</h1>
 <div mat-dialog-content>
+  <!-- Add genome -->
   <mat-accordion>
     <mat-expansion-panel
       (opened)="panelOpenState = true"
@@ -68,6 +69,9 @@
   </button>
     </mat-expansion-panel>
   </mat-accordion>
+  <!-- !Add genome -->
+
+  <!-- Add track -->
   <mat-accordion>
     <mat-expansion-panel
       (opened)="panelOpenState = true"
@@ -98,6 +102,9 @@
   </button>
     </mat-expansion-panel>
   </mat-accordion>
+  <!-- !Add track -->
+
+  
   
 </div>
 <div mat-dialog-actions>

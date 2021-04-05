@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import * as igv from 'node_modules/igv/dist/igv.min.js';
 
@@ -97,7 +97,7 @@ export class IGVComponent implements OnInit {
 
   openDialog(): void {
     const dialogRef = this.dialog.open(DialogIGVForm, {
-      width: '600px',
+      width: '900px',
       data: {stringURL: this.stringURL}
     });
 
@@ -112,6 +112,7 @@ export class IGVComponent implements OnInit {
   selector: 'dialog-igv-form',
   templateUrl: './dialog.igv.form.html',
   styleUrls: ['./dialog.igv.form.css'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class DialogIGVForm {
 
