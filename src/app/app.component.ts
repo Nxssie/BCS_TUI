@@ -8,11 +8,12 @@ import { NavigationStart, Router } from '@angular/router';
 })
 export class AppComponent {
   showMenu: boolean | undefined;
+  showOutlet: boolean | undefined;
   constructor(router:Router) {
     router.events.forEach((event) => {
         if(event instanceof NavigationStart) {
             this.showMenu = event.url !== "/msag";
-            this.showMenu = event.url !== "/igvg";
+            this.showOutlet = event.url == "/msag";
         }
       });
     }
