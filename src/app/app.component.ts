@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 import { NavigationStart, Router } from '@angular/router';
 
@@ -12,8 +13,15 @@ export class AppComponent {
   constructor(router:Router) {
     router.events.forEach((event) => {
         if(event instanceof NavigationStart) {
+          this.showMenu = true;
+          if(event.url == "/msag"){
             this.showMenu = event.url !== "/msag";
             this.showOutlet = event.url == "/msag";
+          } else if (event.url == "/igvg"){
+            this.showMenu = event.url !== "/igvg";
+            this.showOutlet = event.url == "/igvg";
+          }
+
         }
       });
     }
