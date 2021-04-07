@@ -1,5 +1,6 @@
 import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { DomSanitizer } from '@angular/platform-browser';
 import * as igv from 'node_modules/igv/dist/igv.min.js';
 
 export interface DialogData {
@@ -31,7 +32,10 @@ export class IGVComponent implements OnInit {
 
   stringURL!: string;
 
-  constructor(public dialog: MatDialog) {}
+  session: any;
+  sessionJSON: any;
+
+  constructor(public dialog: MatDialog, private sanitizer: DomSanitizer) {}
 
   ngOnInit(): void {
     var igvDiv = document.getElementById('igv-div');
@@ -93,6 +97,20 @@ export class IGVComponent implements OnInit {
     igv.browser.removeTrackByName('HG02450').then((track: any) => {
       alert('Track removed: ' + track.name);
     })
+  }
+
+  public saveSession() {
+    this.session = igv.browser.toJSON();
+    alert("Saved current browser state");
+    this.sessionJSON = igv.browser.compressedSession();
+    console.log(this.sessionJSON);
+    var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.sessionJSON));
+    $('<a href="data:' + data + '" download="IGVSession.json">download JSON</a>').appendTo('#container');
+  }
+
+  public loadSession() {
+    igv.browser.loadSession(this.session);
+    alert("Loaded previous browser state");
   }
 
   openDialog(): void {

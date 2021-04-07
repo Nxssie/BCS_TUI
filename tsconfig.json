@@ -23,7 +23,7 @@
   },
   "angularCompilerOptions": {
     "types" : [
-      "jest", "node"
+      "jest", "node", "jquery"
     ],
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,

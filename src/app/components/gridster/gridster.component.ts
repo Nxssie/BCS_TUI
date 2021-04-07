@@ -142,7 +142,7 @@ export class GridsterComponent implements OnInit {
         this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 5, itol: true })
         break;
       case "jbrowse":
-        this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 5, jbrowse: true })
+        this.dashboard.push({ x: 0, y: 0, cols: 11, rows: 6, jbrowse: true })
         break;
     };
   }
