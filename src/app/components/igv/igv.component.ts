@@ -1,6 +1,5 @@
 import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { DomSanitizer } from '@angular/platform-browser';
 import * as igv from 'node_modules/igv/dist/igv.min.js';
 
 export interface DialogData {
@@ -23,6 +22,10 @@ export interface Track {
   trackIndexed: boolean;
 }
 
+export interface Load {
+  url: string;
+}
+
 @Component({
   selector: 'app-igv',
   templateUrl: './igv.component.html',
@@ -35,7 +38,7 @@ export class IGVComponent implements OnInit {
   session: any;
   sessionJSON: any;
 
-  constructor(public dialog: MatDialog, private sanitizer: DomSanitizer) {}
+  constructor(public dialog: MatDialog) {}
 
   ngOnInit(): void {
     var igvDiv = document.getElementById('igv-div');
@@ -105,7 +108,7 @@ export class IGVComponent implements OnInit {
     this.sessionJSON = igv.browser.compressedSession();
     console.log(this.sessionJSON);
     var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.sessionJSON));
-    $('<a href="data:' + data + '" download="IGVSession.json">download JSON</a>').appendTo('#container');
+    $('<button><a href="data:' + data + '" download="IGVSession.json">Download session</a></button>').appendTo('#container');
   }
 
   public loadSession() {
@@ -124,6 +127,18 @@ export class IGVComponent implements OnInit {
       this.stringURL = result;
     });
   }
+
+  openLoad(): void {
+    const dialogRef = this.dialog.open(LoadIGVForm, {
+      width: '900px',
+      data: {stringURL: this.stringURL}
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      this.stringURL = result;
+    });
+  }
 }
 
 @Component({
@@ -132,6 +147,7 @@ export class IGVComponent implements OnInit {
   styleUrls: ['./dialog.igv.form.css'],
   encapsulation: ViewEncapsulation.None,
 })
+
 export class DialogIGVForm {
 
   panelOpenState = false;
@@ -162,6 +178,39 @@ export class DialogIGVForm {
     } else {
       IGVComponent.loadGenome(this.genomeData, this.trackData);
       this.dialogRef.close();
+    }
+  }
+
+  onSubmitFile(): void {
+    //This method receives an input file to inject it directly to IGV
+  }
+}
+
+@Component({
+  selector: 'load-igv-form',
+  templateUrl: './load.igv.form.html',
+  styleUrls: ['./load.igv.form.css'],
+  encapsulation: ViewEncapsulation.None,
+})
+
+export class LoadIGVForm {
+
+  panelOpenState = false;
+  fileUploadQueue = document.getElementById("fileUploadQueue");
+
+  constructor(
+    public dialogRef: MatDialogRef<LoadIGVForm>,
+    @Inject(MAT_DIALOG_DATA) public data: Load) {}
+
+  onNoClick(): void {
+    this.dialogRef.close();
+  }
+
+  onSubmitLoadSession(): void {
+    if(!this.data.url) {
+      alert("Please fill empty fields")
+    } else {
+      window.location.href = 'http://localhost:4200/igv?sessionURL=blob:' + this.data.url;
     }
   }
 

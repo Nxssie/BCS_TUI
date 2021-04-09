@@ -1,0 +1,41 @@
+<button class="closeButton" mat-mini-fab color="primary" (click)="onNoClick()">
+  <mat-icon>close</mat-icon>
+</button>
+<h1 mat-dialog-title>IGV details</h1>
+<div mat-dialog-content>
+  <!-- Add genome -->
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title> Load session from URL </mat-panel-title>
+        <mat-panel-description> Manually load a session from URL</mat-panel-description>
+      </mat-expansion-panel-header>
+      <mat-form-field class="full-width-field">
+        <mat-label>URL</mat-label>
+        <input matInput [(ngModel)]="data.url" />
+      </mat-form-field>
+      <br />
+      <div class="button-container">
+        <button mat-raised-button color="primary" (click)="onSubmitLoadSession()" cdkFocusInitial>Confirm</button>
+        <button mat-raised-button color="secondary" class="cancel" (click)="onNoClick()">Cancel</button>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+  <!-- !Add genome -->
+
+  <!-- File input -->
+  <!--
+  <br />
+  <label for="singleFile">Upload a file </label>
+  <input id="singleFile" name="singleFile" type="file" [fileUploadInputFor]="fileUploadQueue" />
+  <br>
+
+  <mat-file-upload-queue #fileUploadQueue [fileAlias]="'file'" [httpUrl]="''">
+    <!- - ABOVE HERE GOES BACKEND URL - ->
+
+    <mat-file-upload [file]="file" [id]="i" *ngFor="let file of fileUploadQueue.files; let i = index"></mat-file-upload>
+  </mat-file-upload-queue> -->
+  <!-- !File input -->
+</div>
+<div mat-dialog-actions>
+</div>

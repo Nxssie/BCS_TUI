@@ -27,7 +27,7 @@ import { MatFileUploadModule } from 'angular-material-fileupload';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-import { IGVComponent, DialogIGVForm } from './components/igv/igv.component';
+import { IGVComponent, DialogIGVForm, LoadIGVForm } from './components/igv/igv.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MsaComponent } from './components/msa/msa.component';
@@ -48,6 +48,7 @@ import { IgvgridComponent } from './components/igvgrid/igvgrid.component';
     SidenavComponent,
     IGVComponent,
     DialogIGVForm,
+    LoadIGVForm,
     MsaComponent,
     AuspiceComponent,
     NcbiComponent,

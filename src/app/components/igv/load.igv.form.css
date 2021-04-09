@@ -1,0 +1,43 @@
+.full-width-field {
+    width: 95%;
+ }
+
+ .cdk-overlay-pane.my-dialog {
+  position: relative!important;
+}
+
+.closeButton {
+  position: relative;
+  top: 0;
+  right: 0;
+  margin-bottom: 1em;
+  min-width: auto;
+ }
+
+ .cdk-overlay-pane.my-dialog {
+  position: relative!important;
+}
+
+mat-slide-toggle {
+  margin-top: 1em;
+}
+
+.button-container {
+  margin-top: 1em;
+}
+
+button.mat-raised-button {
+  margin-right: 1em;
+}
+
+button.mat-raised-button.cancel {
+  background-color: #eeeeee;
+}
+
+mat-panel-description {
+  text-align:right;
+}
+
+.mat-icon {
+  vertical-align: sub;
+}

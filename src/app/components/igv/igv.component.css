@@ -2,3 +2,11 @@
     margin: 1vh 0 1vh 1vw
 }
 
+#outer
+{
+    width:100%;
+}
+.inner
+{
+    display: inline-block;
+}
