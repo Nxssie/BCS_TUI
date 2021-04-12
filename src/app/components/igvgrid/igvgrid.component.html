@@ -30,11 +30,12 @@
       </button>
     </div>
 
-    <div id="container" class="inner">
+    <div [style.display]="downloadDisplay">
+      <button id="container" class="config-button" color="primary" mat-raised-button></button>
 
     </div>
 
-    <div class="inner">
+    <div class="inner" *ngIf="showLoad">
       <button class="config-button" color="primary" mat-raised-button (click)="loadSession()">
         Load local session
       </button>

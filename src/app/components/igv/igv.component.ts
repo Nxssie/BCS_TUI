@@ -38,6 +38,9 @@ export class IGVComponent implements OnInit {
   session: any;
   sessionJSON: any;
 
+  showLoad: boolean | undefined;
+  downloadDisplay = "none";
+
   constructor(public dialog: MatDialog) {}
 
   ngOnInit(): void {
@@ -108,7 +111,10 @@ export class IGVComponent implements OnInit {
     this.sessionJSON = igv.browser.compressedSession();
     console.log(this.sessionJSON);
     var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.sessionJSON));
-    $('<button><a href="data:' + data + '" download="IGVSession.json">Download session</a></button>').appendTo('#container');
+    this.showLoad = true;
+    $('<a href="data:' + data + '" download="IGVSession.json" style="color: white">Download session</a>').appendTo('#container');
+    this.downloadDisplay = "inline-block";
+
   }
 
   public loadSession() {
