@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import * as igv from 'node_modules/igv/dist/igv.min.js';
 import { DialogIGVForm } from '../igv/igv.component';
@@ -23,14 +23,21 @@ export interface Track {
   trackIndexed: boolean;
 }
 
+export interface Load {
+  url: string;
+}
+
 @Component({
   selector: 'app-igvgrid',
   templateUrl: './igvgrid.component.html',
-  styleUrls: ['./igvgrid.component.sass']
+  styleUrls: ['./igvgrid.component.css']
 })
 export class IgvgridComponent implements OnInit {
 
   stringURL!: string;
+
+  session: any;
+  sessionJSON: any;
 
   constructor(public dialog: MatDialog) { }
 
@@ -96,6 +103,21 @@ export class IgvgridComponent implements OnInit {
     })
   }
 
+  public saveSession() {
+    this.session = igv.browser.toJSON();
+    alert("Saved current browser state");
+    this.sessionJSON = igv.browser.compressedSession();
+    console.log(this.sessionJSON);
+    var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.sessionJSON));
+    $('<button color="primary" mat-raised-button>Download session</button>').appendTo('#container');
+    //$('<button><a href="data:' + data + '" download="IGVSession.json">Download session</a></button>').appendTo('#container');
+  }
+
+  public loadSession() {
+    igv.browser.loadSession(this.session);
+    alert("Loaded previous browser state");
+  }
+
   openDialog(): void {
     const dialogRef = this.dialog.open(DialogIGVForm, {
       width: '900px',
@@ -106,5 +128,97 @@ export class IgvgridComponent implements OnInit {
       console.log('The dialog was closed');
       this.stringURL = result;
     });
+  }
+
+  openLoad(): void {
+    const dialogRef = this.dialog.open(LoadIGVGridForm, {
+      width: '900px',
+      data: {stringURL: this.stringURL}
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      this.stringURL = result;
+    });
+  }
+
+  
+}
+
+@Component({
+  selector: 'dialog-igv-form',
+  templateUrl: '../igv/dialog.igv.form.html',
+  styleUrls: ['../igv/dialog.igv.form.css'],
+  encapsulation: ViewEncapsulation.None,
+})
+
+export class DialogIGVGridForm {
+
+  panelOpenState = false;
+  fileUploadQueue = document.getElementById("fileUploadQueue");
+
+  constructor(
+    public dialogRef: MatDialogRef<DialogIGVForm>,
+    @Inject(MAT_DIALOG_DATA) public data: DialogData,
+    @Inject(MAT_DIALOG_DATA) public genomeData: Genome,
+    @Inject(MAT_DIALOG_DATA) public trackData: Track) {}
+
+  onNoClick(): void {
+    this.dialogRef.close();
+  }
+
+  onSubmitAddTrack(): void {
+    if(!this.data.stringURL) {
+      alert("Please fill empty fields")
+    } else {
+      IgvgridComponent.loadTrack(this.data.stringURL, this.data.label);
+      this.dialogRef.close();
+    }
+  }
+
+  onSubmitAddGenome(): void {
+    if(!this.genomeData.url) {
+      alert("Please fill empty fields")
+    } else {
+      IgvgridComponent.loadGenome(this.genomeData, this.trackData);
+      this.dialogRef.close();
+    }
+  }
+
+  onSubmitFile(): void {
+    //This method receives an input file to inject it directly to IGV
+  }
+}
+
+@Component({
+  selector: 'load-igv-form',
+  templateUrl: '../igv/load.igv.form.html',
+  styleUrls: ['../igv/load.igv.form.css'],
+  encapsulation: ViewEncapsulation.None,
+})
+
+export class LoadIGVGridForm {
+
+  panelOpenState = false;
+  fileUploadQueue = document.getElementById("fileUploadQueue");
+
+  constructor(
+    public dialogRef: MatDialogRef<LoadIGVGridForm>,
+    @Inject(MAT_DIALOG_DATA) public data: Load) {}
+
+  onNoClick(): void {
+    this.dialogRef.close();
+  }
+
+  onSubmitLoadSession(): void {
+    if(!this.data.url) {
+      alert("Please fill empty fields")
+    } else {
+      window.location.href = 'http://localhost:4200/igv?sessionURL=blob:' + this.data.url;
+    }
+  }
+
+  onSubmitFile(): void {
+    //This method receives an input file to inject it directly to IGV
   }
 }

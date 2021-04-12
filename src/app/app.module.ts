@@ -40,7 +40,7 @@ import { NcbiMsaComponent } from './components/ncbi-msa/ncbi-msa.component';
 import { ItolComponent } from './components/itol/itol.component';
 import { JbrowseComponent } from './components/jbrowse/jbrowse.component';
 import { MsagridComponent } from './components/msagrid/msagrid.component';
-import { IgvgridComponent } from './components/igvgrid/igvgrid.component';
+import { IgvgridComponent, DialogIGVGridForm, LoadIGVGridForm } from './components/igvgrid/igvgrid.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +58,9 @@ import { IgvgridComponent } from './components/igvgrid/igvgrid.component';
     ItolComponent,
     JbrowseComponent,
     MsagridComponent,
-    IgvgridComponent
+    IgvgridComponent,
+    DialogIGVGridForm, 
+    LoadIGVGridForm
   ],
   imports: [
     BrowserModule,
