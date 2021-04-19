@@ -1,6 +1,8 @@
+import { MapComponent } from './../map/map.component';
 import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import * as igv from 'node_modules/igv/dist/igv.min.js';
+import { LatLngExpression } from 'leaflet';
 
 export interface DialogData {
   stringURL: string;
@@ -145,6 +147,32 @@ export class IGVComponent implements OnInit {
       this.stringURL = result;
     });
   }
+
+  setMap(): void {
+    let mapComponent = new MapComponent();
+
+    let newLat = 51.509;
+    let newLng = -0.08;
+    let newCenter: LatLngExpression = [51.509, -0.08];
+
+    mapComponent.setCenter(newCenter);
+    mapComponent.setLat(newLat);
+    mapComponent.setLng(newLng);
+  }
+
+  resetMap(): void {
+    let mapComponent = new MapComponent();
+
+    //let map = mapComponent.getMap();
+    let mapLat = mapComponent.getLat();
+    let mapLng = mapComponent.getLng();
+    let mapCenter = mapComponent.getCenter();
+
+    mapComponent.setCenter(mapCenter);
+    mapComponent.setLat(mapLat);
+    mapComponent.setLng(mapLng);
+  }
+
 }
 
 @Component({

@@ -42,7 +42,6 @@ import { JbrowseComponent } from './components/jbrowse/jbrowse.component';
 import { MsagridComponent } from './components/msagrid/msagrid.component';
 import { IgvgridComponent, DialogIGVGridForm, LoadIGVGridForm } from './components/igvgrid/igvgrid.component';
 import { MapComponent } from './components/map/map.component';
-import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 
 @NgModule({
   declarations: [
@@ -90,8 +89,7 @@ import { LeafletModule } from '@asymmetrik/ngx-leaflet';
     GridsterModule,
     FormsModule,
     ReactiveFormsModule,
-    MatFileUploadModule,
-    LeafletModule
+    MatFileUploadModule
   ],
   providers: [],
   bootstrap: [AppComponent]
