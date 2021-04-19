@@ -12,6 +12,9 @@
   right: 0;
   margin-bottom: 1em;
   min-width: auto;
+  float: right;
+    margin-bottom: 1em;
+    height: 1vh;
  }
 
  .cdk-overlay-pane.my-dialog {
@@ -27,13 +30,23 @@ mat-slide-toggle {
   text-align: center;
 }
 
+.add-genome-container {
+  margin-bottom: 0.5em;
+}
+
 .add-track-button-container {
   margin-top: 1em;
   text-align: center;
 }
 
+#add-track-btn {
+  width: 25vw;
+  background-color: #757de8;
+  color: #accc
+}
+
 .add-track-container {
-  /*innered add track container*/
+  margin-top: 1em;
 }
 
 button.mat-raised-button {
@@ -54,5 +67,12 @@ mat-panel-description {
 
 .mat-expansion-panel-header-description {
   display: inline;
-  margin-right: 15vw;
+  margin-right: 5vw;
+}
+
+@media (min-width: 900px) {
+  .mat-expansion-panel-header-description {
+    display: inline;
+    margin-right: 20vw;
+  }
 }

@@ -62,7 +62,7 @@ export class MsaComponent implements OnInit {
       zoomer: {
         // general
         alignmentWidth: "auto",
-        alignmentHeight: 225,
+        alignmentHeight: 700,
         columnWidth: 15,
         rowHeight: 15,
         autoResize: true, // only for the width

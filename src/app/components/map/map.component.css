@@ -1,0 +1,23 @@
+.map-container {
+  display: block;
+  height: 25vh;
+  width: auto;
+  margin: 5vh 10vw auto 10vw;
+}
+
+.map-frame {
+  border: 2px solid black;
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+}
+
+.container {
+  margin-top: 5vh;
+}
+
+body{
+  background-color: #FFF;
+}

@@ -10,31 +10,32 @@
         <mat-panel-title> Add genome </mat-panel-title>
         <mat-panel-description> Manually add a genome </mat-panel-description>
       </mat-expansion-panel-header>
-      <mat-form-field class="full-width-field">
-        <mat-label>ID</mat-label>
-        <input matInput [(ngModel)]="genomeData.id" />
-      </mat-form-field>
-      <br />
-      <mat-form-field class="full-width-field">
-        <mat-label>Name</mat-label>
-        <input matInput [(ngModel)]="genomeData.name" />
-      </mat-form-field>
-      <br />
-      <mat-form-field class="full-width-field">
-        <mat-label>URL</mat-label>
-        <input matInput [(ngModel)]="genomeData.url" />
-      </mat-form-field>
-      <br />
-      <mat-form-field class="full-width-field">
-        <mat-label>Index URL</mat-label>
-        <input matInput [(ngModel)]="genomeData.indexUrl" />
-      </mat-form-field>
-      <br />
-      <mat-form-field class="full-width-field">
-        <mat-label>Cytoband URL</mat-label>
-        <input matInput [(ngModel)]="genomeData.cytobandUrl" />
-      </mat-form-field>
-      <br /> <br />
+      <div class="add-genome-container">
+        <mat-form-field class="full-width-field">
+          <mat-label>ID</mat-label>
+          <input matInput [(ngModel)]="genomeData.id" />
+        </mat-form-field>
+        <br />
+        <mat-form-field class="full-width-field">
+          <mat-label>Name</mat-label>
+          <input matInput [(ngModel)]="genomeData.name" />
+        </mat-form-field>
+        <br />
+        <mat-form-field class="full-width-field">
+          <mat-label>URL</mat-label>
+          <input matInput [(ngModel)]="genomeData.url" />
+        </mat-form-field>
+        <br />
+        <mat-form-field class="full-width-field">
+          <mat-label>Index URL</mat-label>
+          <input matInput [(ngModel)]="genomeData.indexUrl" />
+        </mat-form-field>
+        <br />
+        <mat-form-field class="full-width-field">
+          <mat-label>Cytoband URL</mat-label>
+          <input matInput [(ngModel)]="genomeData.cytobandUrl" />
+        </mat-form-field>
+      </div>
       <div class="add-track-container">
         <h3>Track</h3>
         <mat-form-field class="full-width-field">
@@ -55,9 +56,9 @@
         <mat-slide-toggle [(ngModel)]="trackData.trackIndexed">Indexed</mat-slide-toggle>
       </div>
 
-      <!-- <div class="add-track-button-container">
-        <button mat-raised-button color="accent">Add track</button>
-      </div> -->
+      <div class="add-track-button-container">
+        <button mat-raised-button id="add-track-btn">Add track</button>
+      </div>
 
       <div class="button-container">
         <button mat-raised-button color="primary" (click)="onSubmitAddGenome()" cdkFocusInitial>Confirm</button>

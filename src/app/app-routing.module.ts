@@ -1,3 +1,4 @@
+import { MapComponent } from './components/map/map.component';
 import { GridsterComponent } from './components/gridster/gridster.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -23,7 +24,8 @@ const routes: Routes = [
   {path: 'ncbimsa', component: NcbiMsaComponent},
   {path: 'itol', component: ItolComponent},
   {path: 'jbrowse', component: JbrowseComponent},
-  {path: 'gridster', component: GridsterComponent}
+  {path: 'gridster', component: GridsterComponent},
+  {path: 'map', component: MapComponent}
 ];
 
 @NgModule({

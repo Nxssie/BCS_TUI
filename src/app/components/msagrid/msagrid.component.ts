@@ -61,7 +61,7 @@ export class MsagridComponent implements OnInit {
       zoomer: {
         // general
         alignmentWidth: "auto",
-        alignmentHeight: 225,
+        alignmentHeight: 500,
         columnWidth: 15,
         rowHeight: 15,
         autoResize: true, // only for the width
