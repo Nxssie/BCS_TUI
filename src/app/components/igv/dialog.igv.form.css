@@ -24,6 +24,16 @@ mat-slide-toggle {
 
 .button-container {
   margin-top: 1em;
+  text-align: center;
+}
+
+.add-track-button-container {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.add-track-container {
+  /*innered add track container*/
 }
 
 button.mat-raised-button {
@@ -40,4 +50,9 @@ mat-panel-description {
 
 .mat-icon {
   vertical-align: sub;
+}
+
+.mat-expansion-panel-header-description {
+  display: inline;
+  margin-right: 15vw;
 }

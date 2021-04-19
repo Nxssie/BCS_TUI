@@ -35,24 +35,30 @@
         <input matInput [(ngModel)]="genomeData.cytobandUrl" />
       </mat-form-field>
       <br /> <br />
-      <h3>Track</h3>
-      <mat-form-field class="full-width-field">
-        <mat-label>Name</mat-label>
-        <input matInput [(ngModel)]="trackData.trackName" />
-      </mat-form-field>
-      <br />
-      <mat-form-field class="full-width-field">
-        <mat-label>URL</mat-label>
-        <input matInput [(ngModel)]="trackData.trackUrl" />
-      </mat-form-field>
-      <br />
-      <mat-form-field class="full-width-field">
-        <mat-label>Order</mat-label>
-        <input matInput [(ngModel)]="trackData.trackOrder" />
-      </mat-form-field>
-      <br/>
-      <mat-slide-toggle [(ngModel)]="trackData.trackIndexed">Indexed</mat-slide-toggle>
-      <br/>
+      <div class="add-track-container">
+        <h3>Track</h3>
+        <mat-form-field class="full-width-field">
+          <mat-label>Name</mat-label>
+          <input matInput [(ngModel)]="trackData.trackName" />
+        </mat-form-field>
+        <br />
+        <mat-form-field class="full-width-field">
+          <mat-label>URL</mat-label>
+          <input matInput [(ngModel)]="trackData.trackUrl" />
+        </mat-form-field>
+        <br />
+        <mat-form-field class="full-width-field">
+          <mat-label>Order</mat-label>
+          <input matInput [(ngModel)]="trackData.trackOrder" />
+        </mat-form-field>
+        <br />
+        <mat-slide-toggle [(ngModel)]="trackData.trackIndexed">Indexed</mat-slide-toggle>
+      </div>
+
+      <!-- <div class="add-track-button-container">
+        <button mat-raised-button color="accent">Add track</button>
+      </div> -->
+
       <div class="button-container">
         <button mat-raised-button color="primary" (click)="onSubmitAddGenome()" cdkFocusInitial>Confirm</button>
         <button mat-raised-button color="secondary" class="cancel" (click)="onNoClick()">Cancel</button>
